@@ -9,7 +9,7 @@
     <p
         class="text-muted-foreground text-xl leading-7 [&:not(:first-child)]:mt-6"
     >
-        Use the menu bar at the top to navigate this megathread.
+        Use the menu bar on the side to navigate this megathread.
     </p>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
         ROMs of popular games can be found in the Popular Games page.<br />ROMs
