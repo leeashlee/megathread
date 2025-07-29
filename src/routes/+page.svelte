@@ -11,18 +11,6 @@
     >
         Use the menu bar on the side to navigate this megathread.
     </p>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        ROMs of popular games can be found in the Popular Games page.<br />ROMs
-        of games for Nintendo systems can be found in the Nintendo Games page.
-        <br />ROMs of games for Sony systems can be found in the Sony Games
-        page. <br />ROMs of games for Microsoft systems can be found in the
-        Microsoft Games page.<br />
-        ROMs of games for Sega systems can be found in the Sega Games page.
-        <br />ROMs of retro and arcade games can be found in the Retro & Arcade
-        Games page.<br />
-        PC games can be found in the PC Games page. <br />BIOS files can be
-        found in the Miscellaneous page.
-    </p>
     <h2
         class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
     >
@@ -250,7 +238,7 @@
         follows:
     </p>
 
-    <ol class="my-6 ml-6 list-decimal [&>li]:mt-2">
+    <ol class="my-6 ml-6 font-medium list-decimal [&>li]:mt-2">
         <li>
             Sign in to your Google account or create one, if you have not
             already.
