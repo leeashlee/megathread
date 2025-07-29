@@ -1,281 +1,285 @@
 <script lang="ts">
-    import * as NavigationMenu from "$lib/components/ui/navigation-menu/index.js";
-    import { cn } from "$lib/utils.js";
-    import NavigationMenuTrigger, {
-        navigationMenuTriggerStyle,
-    } from "$lib/components/ui/navigation-menu/navigation-menu-trigger.svelte";
-    import type { HTMLAttributes } from "svelte/elements";
-    import NavigationMenuItem from "$lib/components/ui/navigation-menu/navigation-menu-item.svelte";
-    const components: { title: string; href: string; description: string }[] = [
-        {
-            title: "Alert Dialog",
-            href: "/docs/components/alert-dialog",
-            description:
-                "A modal dialog that interrupts the user with important content and expects a response.",
-        },
-        {
-            title: "Hover Card",
-            href: "/docs/components/hover-card",
-            description:
-                "For sighted users to preview content available behind a link.",
-        },
-        {
-            title: "Progress",
-            href: "/docs/components/progress",
-            description:
-                "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
-        },
-        {
-            title: "Scroll-area",
-            href: "/docs/components/scroll-area",
-            description: "Visually or semantically separates content.",
-        },
-        {
-            title: "Tabs",
-            href: "/docs/components/tabs",
-            description:
-                "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
-        },
-        {
-            title: "Tooltip",
-            href: "/docs/components/tooltip",
-            description:
-                "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
-        },
-    ];
-
-    type ListItemProps = HTMLAttributes<HTMLAnchorElement> & {
-        title: string;
-        href: string;
-        content: string;
-    };
-    import { Button } from "$lib/components/ui/button/index.js";
-    import { Separator } from "$lib/components/ui/separator/index.js";
-    import SunIcon from "@lucide/svelte/icons/sun";
-    import MoonIcon from "@lucide/svelte/icons/moon";
-
-    import { toggleMode } from "mode-watcher";
+    import { AspectRatio } from "$lib/components/ui/aspect-ratio/index.js";
 </script>
 
-{#snippet ListItem({
-    title,
-    content,
-    href,
-    class: className,
-    ...restProps
-}: ListItemProps)}
-    <li>
-        <NavigationMenu.Link>
-            {#snippet child()}
-                <a
-                    {href}
-                    class={cn(
-                        "hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors",
-                        className,
-                    )}
-                    {...restProps}
-                >
-                    <div class="text-sm font-medium leading-none">{title}</div>
-                    <p
-                        class="text-muted-foreground line-clamp-2 text-sm leading-snug"
+<div class="mx-16 mt-8 mb-8 space-y-4 md:mx-24 lg:mx-32 xl:mx-40 bg-background">
+    <h1 class="scroll-m-20 text-balance text-4xl font-extrabold tracking-tight">
+        r/ROMs Megathread
+    </h1>
+    <p
+        class="text-muted-foreground text-xl leading-7 [&:not(:first-child)]:mt-6"
+    >
+        Use the menu bar at the top to navigate this megathread.
+    </p>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        ROMs of popular games can be found in the Popular Games page.<br />ROMs
+        of games for Nintendo systems can be found in the Nintendo Games page.
+        <br />ROMs of games for Sony systems can be found in the Sony Games
+        page. <br />ROMs of games for Microsoft systems can be found in the
+        Microsoft Games page.<br />
+        ROMs of games for Sega systems can be found in the Sega Games page.
+        <br />ROMs of retro and arcade games can be found in the Retro & Arcade
+        Games page.<br />
+        PC games can be found in the PC Games page. <br />BIOS files can be
+        found in the Miscellaneous page.
+    </p>
+    <h2
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+    >
+        Donate to Myrient and/or the Internet Archive
+    </h2>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        This megathread comprises of aggregated links hosted at <a
+            href="https://myrient.erista.me/"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >Myrient</a
+        >
+        and the
+        <a
+            href="https://archive.org/"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >Internet Archive</a
+        >. Without the support of users like you, this megathread would have
+        much less content available for download.<br /> Please consider making a
+        donation to Myrient
+        <a
+            href="https://myrient.erista.me/donate/"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >here</a
+        >
+        and/or to the Internet Archive
+        <a
+            href="https://myrient.erista.me/donate/"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >here</a
+        >.
+    </p>
+    <h2
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+    >
+        Additional Information
+    </h2>
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+        "No-Intro" and "Redump"
+    </h3>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        No-Intro and Redump are groups that catalog hashes of dumped games for
+        many systems. If "No-Intro" or "Redump" is present in the name of a
+        group of links, it is a collection of the currently best-available ROMs
+        for the system.
+    </p>
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+        Locked Internet Archive Items
+    </h3>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        No-Intro and Redump are groups that catalog hashes of dumped games for
+        many systems. If "No-Intro" or "Redump" is present in the name of a
+        group of links, it is a collection of the currently best-available ROMs
+        for the system.
+        <img
+            src="src/img/internetarchivelock.png"
+            alt=""
+            class="h-full w-full rounded-md object-cover"
+        />
+        When accessing the file directly, one of the following errors is shown.
+        <img
+            src="src/img/internetarchivelockfile1.png"
+            alt=""
+            class="h-full w-full rounded-md object-cover"
+        />
+        <br />
+        <img
+            src="src/img/internetarchivelockfile2.png"
+            alt=""
+            class="h-full w-full rounded-md object-cover"
+        />
+        To download locked items or files, register an
+        <a
+            href="https://archive.org/account/signup"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >Internet Archive account</a
+        > or download it from Myrient instead.
+    </p>
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+        Internet Archive Metadata
+    </h3>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        Internet Archive items have metadata files that end in extensions such
+        as <code
+            class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
+        >
+            .xml
+        </code>
+        and
+        <code
+            class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
+        >
+            .sqlite
+        </code>. These files are not important to download but are meant for the
+        website to know what files to display and the reviews of the item.
+        <img
+            src="src/img/internetarchivelock.png"
+            alt=""
+            class="h-full w-full rounded-md object-cover"
+        />
+    </p>
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+        Internet Archive Torrents
+    </h3>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        Some Internet Archive items contain torrent files as another download
+        method. However, the torrent's file listing is usually incomplete
+        compared to what is listed on the website. For this reason, it is
+        recommended to use direct downloads with a download manager instead of
+        torrents.
+    </p>
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+        Archive File Types (ZIP, 7z, RAR)
+    </h3>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        ZIP, 7z, and RAR are archive file types which means they must be
+        extracted. 7-Zip is recommended for extracting these files. Download and
+        install it <a
+            href="https://www.7-zip.org/"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >here</a
+        >
+        and run it. Then, open the archive file in 7-Zip or right click on it and
+        go to <br />
+        <code
+            class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
+        >
+            7-Zip -> Extract Files
+        </code>.
+    </p>
+    <h2
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+    >
+        Blocking Ads with uBlock Origin
+    </h2>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        uBlock Origin is recommended when accessing certain links on this
+        megathread and the Internet in general. It blocks ads, trackers,and much
+        more. <br /> Below are links to download and install it for certain web browsers.
+    </p>
+    <div class="my-6 w-full overflow-y-auto">
+        <table class="w-full">
+            <thead>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <th
+                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        {content}
-                    </p>
-                </a>
-            {/snippet}
-        </NavigationMenu.Link>
-    </li>
-{/snippet}
+                        Store Name
+                    </th>
+                    <th
+                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Links
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Chrome Web Store
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Link</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Firefox Add-ons
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://addons.mozilla.org/en-US/android/addon/ublock-origin/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Link</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Opera Add-ons
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://addons.opera.com/en/extensions/details/ublock/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Link</a
+                        >
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        For Android: Download Firefox from the Play Store, locate the Addons
+        menu and select uBlock Origin. Add it to Firefox and remember to only
+        use Firefox to download ROMs.
+    </p>
+    <h2
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+    >
+        Bypassing Download Limits
+    </h2>
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+        Google Drive
+    </h3>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        From time to time when trying to download a file, you may see an error
+        message saying “Download quota exceeded, so you can’t download this file
+        at this time”. The steps to bypass the download quota limit are as
+        follows:
+    </p>
 
-<NavigationMenu.Root viewport={false}>
-    <NavigationMenu.List>
-        <NavigationMenuItem>
-            <Button variant="ghost" href="/">/r/Roms Megathread</Button>
-        </NavigationMenuItem>
-        <NavigationMenu.Item>
-            <NavigationMenu.Trigger>Popular</NavigationMenu.Trigger>
-            <NavigationMenu.Content>
-                <ul class="grid w-[200px] gap-4 p-2">
-                    <li>
-                        <NavigationMenu.Link href="#about-rvz-files"
-                            >About RVZ files</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#metroid"
-                            >Metroid</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#mario"
-                            >Mario</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#fire-emblem"
-                            >Fire Emblem</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#pokemon"
-                            >Pokemon</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#persona"
-                            >Persona</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#zelda"
-                            >Zelda</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#super-smash-bros"
-                            >Super Smash Bros</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#xenoblade"
-                            >Xenoblade</NavigationMenu.Link
-                        >
-                    </li>
-                </ul>
-            </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        <NavigationMenu.Item>
-            <NavigationMenu.Trigger>Nintendo</NavigationMenu.Trigger>
-            <NavigationMenu.Content>
-                <ul class="grid w-[200px] gap-4 p-2">
-                    <li>
-                        <NavigationMenu.Link href="#nintendo-games"
-                            >Nintendo Games</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#nintendo-ds"
-                            >Nintendo DS</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#nintendo-3ds"
-                            >Nintendo 3DS</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#nintendo-gamecube"
-                            >Nintendo GameCube</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#nintendo-wii"
-                            >Nintendo Wii</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#nintendo-wii-u"
-                            >Nintendo Wii U</NavigationMenu.Link
-                        >
-                    </li>
-                </ul>
-            </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        <NavigationMenu.Item>
-            <NavigationMenu.Trigger>Sony</NavigationMenu.Trigger>
-            <NavigationMenu.Content>
-                <ul class="grid w-[200px] gap-4 p-2">
-                    <li>
-                        <NavigationMenu.Link href="#no-pay-station"
-                            >NoPayStation</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#sony-playstation"
-                            >Sony Playstation</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#sony-playstation-2"
-                            >Sony Playstation 2</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#sony-playstation-portable"
-                            >Sony Playstation Portable</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#sony-playstation-3"
-                            >Sony Playstation 3</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#sony-playstation-vita"
-                            >Sony Playstation Vita</NavigationMenu.Link
-                        >
-                    </li>
-                </ul>
-            </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        <NavigationMenu.Item>
-            <NavigationMenu.Trigger>Microsoft</NavigationMenu.Trigger>
-            <NavigationMenu.Content>
-                <ul class="grid w-[200px] gap-4 p-2">
-                    <li>
-                        <NavigationMenu.Link href="#microsoft-xbox"
-                            >Microsoft Xbox</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#microsoft-xbox-360"
-                            >Microsoft Xbox 360</NavigationMenu.Link
-                        >
-                    </li>
-                </ul>
-            </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        <NavigationMenu.Item>
-            <NavigationMenu.Trigger>Sega</NavigationMenu.Trigger>
-            <NavigationMenu.Content>
-                <ul class="grid w-[200px] gap-4 p-2">
-                    <li>
-                        <NavigationMenu.Link href="#sega-games"
-                            >SEGA Games</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#sega-dreamcast"
-                            >Sega Dreamcast</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#sega-saturn"
-                            >Sega Saturn</NavigationMenu.Link
-                        >ֿ
-                        <NavigationMenu.Link href="#sega-cd"
-                            >Sega CD</NavigationMenu.Link
-                        >
-                    </li>
-                </ul>
-            </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        <NavigationMenu.Item>
-            <NavigationMenu.Trigger>Retro & Arcade</NavigationMenu.Trigger>
-            <NavigationMenu.Content>
-                <ul class="grid w-[200px] gap-4 p-2">
-                    <li>
-                        <NavigationMenu.Link href="#retro-games"
-                            >Retro Games</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#arcade-games"
-                            >Arcade</NavigationMenu.Link
-                        >
-                    </li>
-                </ul>
-            </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        <NavigationMenu.Item>
-            <NavigationMenu.Trigger>PC</NavigationMenu.Trigger>
-            <NavigationMenu.Content>
-                <ul class="grid w-[200px] gap-4 p-2">
-                    <li>
-                        <NavigationMenu.Link href="#pc-games"
-                            >PC Games</NavigationMenu.Link
-                        >
-                    </li>
-                </ul>
-            </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        <NavigationMenu.Item>
-            <NavigationMenu.Trigger>Miscellaneous</NavigationMenu.Trigger>
-            <NavigationMenu.Content>
-                <ul class="grid w-[200px] gap-4 p-2">
-                    <li>
-                        <NavigationMenu.Link href="#rom-sets"
-                            >ROM Sets</NavigationMenu.Link
-                        >
-                        <NavigationMenu.Link href="#bios-files"
-                            >BIOS Files</NavigationMenu.Link
-                        >
-                    </li>
-                </ul>
-            </NavigationMenu.Content>
-        </NavigationMenu.Item>
-        <Button onclick={toggleMode} variant="outline" size="icon">
-            <SunIcon
-                class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 !transition-all dark:-rotate-90 dark:scale-0"
-            />
-            <MoonIcon
-                class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 !transition-all dark:rotate-0 dark:scale-100"
-            />
-            <span class="sr-only">Toggle theme</span>
-        </Button>
-    </NavigationMenu.List>
-</NavigationMenu.Root>
-<Separator />
+    <ol class="my-6 ml-6 list-decimal [&>li]:mt-2">
+        <li>
+            Sign in to your Google account or create one, if you have not
+            already.
+        </li>
+        <li>Open Google Drive and go to “My Drive” in the sidebar.</li>
+        <li>Make a new folder. It does not matter what you name it.</li>
+        <li>
+            Go to the quota'd folder, right click on the file you want to
+            download, and click “Add Shortcut to Drive”.
+        </li>
+        <li>
+            Navigate to “My Drive” and then to the folder you made, and click
+            “Add Shortcut”.
+        </li>
+        <li>
+            Go to “My Drive” on the sidebar. Right-click the folder you made and
+            click “Download”.
+        </li>
+        <li>A .zip file with the file(s) you selected starts downloading.</li>
+    </ol>
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">MEGA</h3>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        MEGA has a 5 GB download limit every 24 hours. To bypass MEGA's download
+        limits, you will need either a VPN or a list of proxies. If you are
+        using a VPN, simply connect to it. If you are using a list of proxies,
+        download <a
+            href="https://github.com/tonikelope/megabasterd"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >MegaBasterd</a
+        > and configure it with the list of proxies.
+    </p>
+</div>
