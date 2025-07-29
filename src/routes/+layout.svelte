@@ -56,6 +56,9 @@
     import SunIcon from "@lucide/svelte/icons/sun";
     import MoonIcon from "@lucide/svelte/icons/moon";
     import { toggleMode } from "mode-watcher";
+    import * as Sidebar from "$lib/components/ui/sidebar/index.js";
+    import AppSidebar from "$lib/components/app-sidebar.svelte";
+
     let { children } = $props();
 </script>
 
@@ -90,193 +93,13 @@
 {/snippet}
 
 <div class="mx-8 my-4 space-y-8 md:mx-16 lg:mx-24 xl:mx-32 bg-background">
-    <div class="sticky top-0 bg-background">
+    <div class="flex justify-end sticky top-0 bg-background">
         <NavigationMenu.Root viewport={false}>
             <NavigationMenu.List>
+                <NavigationMenuItem></NavigationMenuItem>
                 <NavigationMenuItem>
                     <Button variant="ghost" href="/">/r/Roms Megathread</Button>
                 </NavigationMenuItem>
-                <NavigationMenu.Item>
-                    <NavigationMenu.Trigger>Popular</NavigationMenu.Trigger>
-                    <NavigationMenu.Content>
-                        <ul class="grid w-[200px] gap-4 p-2">
-                            <li>
-                                <NavigationMenu.Link href="#about-rvz-files"
-                                    >About RVZ files</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#metroid"
-                                    >Metroid</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#mario"
-                                    >Mario</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#fire-emblem"
-                                    >Fire Emblem</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#pokemon"
-                                    >Pokemon</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#persona"
-                                    >Persona</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#zelda"
-                                    >Zelda</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#super-smash-bros"
-                                    >Super Smash Bros</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#xenoblade"
-                                    >Xenoblade</NavigationMenu.Link
-                                >
-                            </li>
-                        </ul>
-                    </NavigationMenu.Content>
-                </NavigationMenu.Item>
-
-                <NavigationMenu.Item>
-                    <NavigationMenu.Trigger>Nintendo</NavigationMenu.Trigger>
-                    <NavigationMenu.Content>
-                        <ul class="grid w-[200px] gap-4 p-2">
-                            <li>
-                                <NavigationMenu.Link href="#nintendo-games"
-                                    >Nintendo Games</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#nintendo-ds"
-                                    >Nintendo DS</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#nintendo-3ds"
-                                    >Nintendo 3DS</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#nintendo-gamecube"
-                                    >Nintendo GameCube</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#nintendo-wii"
-                                    >Nintendo Wii</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#nintendo-wii-u"
-                                    >Nintendo Wii U</NavigationMenu.Link
-                                >
-                            </li>
-                        </ul>
-                    </NavigationMenu.Content>
-                </NavigationMenu.Item>
-
-                <NavigationMenu.Item>
-                    <NavigationMenu.Trigger>Sony</NavigationMenu.Trigger>
-                    <NavigationMenu.Content>
-                        <ul class="grid w-[200px] gap-4 p-2">
-                            <li>
-                                <NavigationMenu.Link href="#no-pay-station"
-                                    >NoPayStation</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#sony-playstation"
-                                    >Sony Playstation</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#sony-playstation-2"
-                                    >Sony Playstation 2</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link
-                                    href="#sony-playstation-portable"
-                                    >Sony Playstation Portable</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#sony-playstation-3"
-                                    >Sony Playstation 3</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link
-                                    href="#sony-playstation-vita"
-                                    >Sony Playstation Vita</NavigationMenu.Link
-                                >
-                            </li>
-                        </ul>
-                    </NavigationMenu.Content>
-                </NavigationMenu.Item>
-
-                <NavigationMenu.Item>
-                    <NavigationMenu.Trigger>Microsoft</NavigationMenu.Trigger>
-                    <NavigationMenu.Content>
-                        <ul class="grid w-[200px] gap-4 p-2">
-                            <li>
-                                <NavigationMenu.Link href="#microsoft-xbox"
-                                    >Microsoft Xbox</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#microsoft-xbox-360"
-                                    >Microsoft Xbox 360</NavigationMenu.Link
-                                >
-                            </li>
-                        </ul>
-                    </NavigationMenu.Content>
-                </NavigationMenu.Item>
-
-                <NavigationMenu.Item>
-                    <NavigationMenu.Trigger>Sega</NavigationMenu.Trigger>
-                    <NavigationMenu.Content>
-                        <ul class="grid w-[200px] gap-4 p-2">
-                            <li>
-                                <NavigationMenu.Link href="#sega-games"
-                                    >SEGA Games</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#sega-dreamcast"
-                                    >Sega Dreamcast</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#sega-saturn"
-                                    >Sega Saturn</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#sega-cd"
-                                    >Sega CD</NavigationMenu.Link
-                                >
-                            </li>
-                        </ul>
-                    </NavigationMenu.Content>
-                </NavigationMenu.Item>
-
-                <NavigationMenu.Item>
-                    <NavigationMenu.Trigger
-                        >Retro & Arcade</NavigationMenu.Trigger
-                    >
-                    <NavigationMenu.Content>
-                        <ul class="grid w-[200px] gap-4 p-2">
-                            <li>
-                                <NavigationMenu.Link href="#retro-games"
-                                    >Retro Games</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#arcade-games"
-                                    >Arcade</NavigationMenu.Link
-                                >
-                            </li>
-                        </ul>
-                    </NavigationMenu.Content>
-                </NavigationMenu.Item>
-
-                <NavigationMenu.Item>
-                    <NavigationMenu.Trigger>PC</NavigationMenu.Trigger>
-                    <NavigationMenu.Content>
-                        <ul class="grid w-[200px] gap-4 p-2">
-                            <li>
-                                <NavigationMenu.Link href="#pc-games"
-                                    >PC Games</NavigationMenu.Link
-                                >
-                            </li>
-                        </ul>
-                    </NavigationMenu.Content>
-                </NavigationMenu.Item>
-
-                <NavigationMenu.Item>
-                    <NavigationMenu.Trigger
-                        >Miscellaneous</NavigationMenu.Trigger
-                    >
-                    <NavigationMenu.Content>
-                        <ul class="grid w-[200px] gap-4 p-2">
-                            <li>
-                                <NavigationMenu.Link href="#rom-sets"
-                                    >ROM Sets</NavigationMenu.Link
-                                >
-                                <NavigationMenu.Link href="#bios-files"
-                                    >BIOS Files</NavigationMenu.Link
-                                >
-                            </li>
-                        </ul>
-                    </NavigationMenu.Content>
-                </NavigationMenu.Item>
                 <Button onclick={toggleMode} variant="outline" size="icon">
                     <SunIcon
                         class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 !transition-all dark:-rotate-90 dark:scale-0"
@@ -288,9 +111,13 @@
                 </Button>
             </NavigationMenu.List>
         </NavigationMenu.Root>
-        <Separator />
     </div>
-    
+    <Sidebar.Provider>
+        <AppSidebar />
+        <main>
+            <Sidebar.Trigger />
+            {@render children?.()}
+        </main>
+    </Sidebar.Provider>
     <ModeWatcher />
-    {@render children?.()}
 </div>
