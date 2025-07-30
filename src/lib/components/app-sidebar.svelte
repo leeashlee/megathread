@@ -1,7 +1,8 @@
 <script lang="ts">
     import * as Sidebar from "$lib/components/ui/sidebar/index.js";
-    import { Collapsible } from "bits-ui";
-    import ChevronDown from "@lucide/svelte/icons/chevron-down";
+    import * as Collapsible from "$lib/components/ui/collapsible/index.js";
+    import MinusIcon from "@lucide/svelte/icons/minus";
+    import PlusIcon from "@lucide/svelte/icons/plus";
 
     //Popular items,
     const populars = [

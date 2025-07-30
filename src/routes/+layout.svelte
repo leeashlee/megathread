@@ -92,32 +92,56 @@
     </li>
 {/snippet}
 
-<div class="mx-8 my-4 space-y-8 md:mx-16 lg:mx-24 xl:mx-32 bg-background">
-    <div class="flex justify-end sticky top-0 bg-background">
-        <NavigationMenu.Root viewport={false}>
-            <NavigationMenu.List>
-                <NavigationMenuItem></NavigationMenuItem>
-                <NavigationMenuItem>
-                    <Button variant="ghost" href="/">/r/Roms Megathread</Button>
-                </NavigationMenuItem>
-                <Button onclick={toggleMode} variant="outline" size="icon">
-                    <SunIcon
-                        class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 !transition-all dark:-rotate-90 dark:scale-0"
-                    />
-                    <MoonIcon
-                        class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 !transition-all dark:rotate-0 dark:scale-100"
-                    />
-                    <span class="sr-only">Toggle theme</span>
-                </Button>
-            </NavigationMenu.List>
-        </NavigationMenu.Root>
-    </div>
+<div class="mx-8 my-4 space-y-8 md:mx-16 lg:mx-24 xl:mx-32">
     <Sidebar.Provider>
         <AppSidebar />
-        <main>
-            <Sidebar.Trigger />
-            {@render children?.()}
-        </main>
+        <Sidebar.Inset>
+            <header
+                class="flex h-16 shrink-0 items-center gap-2 border-b px-4 sticky bg-background"
+            >
+                <NavigationMenu.Root viewport={false}>
+                    <NavigationMenu.List>
+                        <NavigationMenuItem></NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <Button variant="ghost" href="/"
+                                >/r/Roms Megathread</Button
+                            >
+                        </NavigationMenuItem>
+                        <Sidebar.Trigger />
+                        <Button
+                            onclick={toggleMode}
+                            variant="outline"
+                            size="icon"
+                        >
+                            <SunIcon
+                                class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 !transition-all dark:-rotate-90 dark:scale-0"
+                            />
+                            <MoonIcon
+                                class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 !transition-all dark:rotate-0 dark:scale-100"
+                            />
+                            <span class="sr-only">Toggle theme</span>
+                        </Button>
+                    </NavigationMenu.List>
+                </NavigationMenu.Root>
+            </header>
+            <main>
+                {@render children?.()}
+            </main>
+            <footer class="flex flex-col items-center justify-center gap-2 p-4">
+                <Separator />
+                <p class="text-sm text-primary">
+                    © 2025 /r/Roms Megathread. All rights reserved.
+                </p>
+                <p class="text-xs text-muted-foreground">
+                    Designed by{" "}
+                    <a
+                        href="https://www.ashleehee.com/"
+                        class="text-primary underline underline-offset-4 hover:bg-primary hover:text-primary-foreground"
+                        >AshLee</a
+                    >
+                </p>
+            </footer>
+        </Sidebar.Inset>
     </Sidebar.Provider>
     <ModeWatcher />
 </div>
