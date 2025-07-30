@@ -3,9 +3,6 @@
     import { ModeWatcher } from "mode-watcher";
     import * as NavigationMenu from "$lib/components/ui/navigation-menu/index.js";
     import { cn } from "$lib/utils.js";
-    import NavigationMenuTrigger, {
-        navigationMenuTriggerStyle,
-    } from "$lib/components/ui/navigation-menu/navigation-menu-trigger.svelte";
     import type { HTMLAttributes } from "svelte/elements";
     import NavigationMenuItem from "$lib/components/ui/navigation-menu/navigation-menu-item.svelte";
     const components: { title: string; href: string; description: string }[] = [
@@ -61,36 +58,6 @@
 
     let { children } = $props();
 </script>
-
-{#snippet ListItem({
-    title,
-    content,
-    href,
-    class: className,
-    ...restProps
-}: ListItemProps)}
-    <li>
-        <NavigationMenu.Link>
-            {#snippet child()}
-                <a
-                    {href}
-                    class={cn(
-                        "hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors",
-                        className,
-                    )}
-                    {...restProps}
-                >
-                    <div class="text-sm font-medium leading-none">{title}</div>
-                    <p
-                        class="text-muted-foreground line-clamp-2 text-sm leading-snug"
-                    >
-                        {content}
-                    </p>
-                </a>
-            {/snippet}
-        </NavigationMenu.Link>
-    </li>
-{/snippet}
 
 <div class="mx-8 my-4 space-y-8 md:mx-16 lg:mx-24 xl:mx-32">
     <Sidebar.Provider>
