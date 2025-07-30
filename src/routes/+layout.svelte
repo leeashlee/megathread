@@ -1,5 +1,6 @@
 <script lang="ts">
     export const prerender = true;
+    trailingSlash: 'always'
     import "../app.css";
     import { ModeWatcher } from "mode-watcher";
     import * as NavigationMenu from "$lib/components/ui/navigation-menu/index.js";

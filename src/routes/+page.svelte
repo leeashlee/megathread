@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { AspectRatio } from "$lib/components/ui/aspect-ratio/index.js";
+    export const prerender = true;
 </script>
 
 <!-- Home page for the ROMs megathread -->

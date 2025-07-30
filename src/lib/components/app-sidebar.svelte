@@ -1,4 +1,5 @@
 <script lang="ts">
+    export const prerender = true;
     import * as Sidebar from "$lib/components/ui/sidebar/index.js";
     import * as Collapsible from "$lib/components/ui/collapsible/index.js";
     import MinusIcon from "@lucide/svelte/icons/minus";
