@@ -8,39 +8,39 @@
     const populars = [
         {
             title: "About RVZ files",
-            url: "#about-rvz-files",
+            url: "/Populars/about-rvz-files",
         },
         {
             title: "Metroid",
-            url: "#metroid",
+            url: "/Populars/metroid",
         },
         {
             title: "Mario",
-            url: "#mario",
+            url: "/Populars/mario",
         },
         {
             title: "Fire Emblem",
-            url: "#fire-emblem",
+            url: "/Populars/fire-emblem",
         },
         {
             title: "Zelda",
-            url: "#zelda",
+            url: "/Populars/zelda",
         },
         {
             title: "Pokemon",
-            url: "#pokemon",
+            url: "/Populars/pokemon",
         },
         {
             title: "Persona",
-            url: "#persona",
+            url: "/Populars/persona",
         },
         {
             title: "Super Smash Bros",
-            url: "#super-smash-bros",
+            url: "/Populars/super-smash-bros",
         },
         {
             title: "Xenoblade",
-            url: "#xenoblade",
+            url: "/Populars/xenoblade",
         },
     ];
 
