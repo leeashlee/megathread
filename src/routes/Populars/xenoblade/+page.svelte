@@ -1,156 +1,11 @@
 <script lang="ts">
-    
 </script>
 
 <!-- Home page for the ROMs megathread -->
 <div class="mx-8 mb-8 mt-8 space-y-4 bg-background">
     <h1 class="scroll-m-20 text-balance text-4xl font-extrabold tracking-tight">
-        r/ROMs Megathread
+        Xenoblade
     </h1>
-    <p
-        class="text-muted-foreground text-xl leading-7 [&:not(:first-child)]:mt-6"
-    >
-        Use the menu bar on the side to navigate this megathread.
-    </p>
-    <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-    >
-        Donate to Myrient and/or the Internet Archive
-    </h2>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        This megathread comprises of aggregated links hosted at <a
-            href="https://myrient.erista.me/"
-            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-            >Myrient</a
-        >
-        and the
-        <a
-            href="https://archive.org/"
-            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-            >Internet Archive</a
-        >. Without the support of users like you, this megathread would have
-        much less content available for download.<br /> Please consider making a
-        donation to Myrient
-        <a
-            href="https://myrient.erista.me/donate/"
-            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-            >here</a
-        >
-        and/or to the Internet Archive
-        <a
-            href="https://myrient.erista.me/donate/"
-            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-            >here</a
-        >.
-    </p>
-    <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-    >
-        Additional Information
-    </h2>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-        "No-Intro" and "Redump"
-    </h3>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        No-Intro and Redump are groups that catalog hashes of dumped games for
-        many systems. If "No-Intro" or "Redump" is present in the name of a
-        group of links, it is a collection of the currently best-available ROMs
-        for the system.
-    </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-        Locked Internet Archive Items
-    </h3>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        No-Intro and Redump are groups that catalog hashes of dumped games for
-        many systems. If "No-Intro" or "Redump" is present in the name of a
-        group of links, it is a collection of the currently best-available ROMs
-        for the system.
-        <img
-            src="src/img/internetarchivelock.png"
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
-        When accessing the file directly, one of the following errors is shown.
-        <img
-            src="src/img/internetarchivelockfile1.png"
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
-        <br />
-        <img
-            src="src/img/internetarchivelockfile2.png"
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
-        To download locked items or files, register an
-        <a
-            href="https://archive.org/account/signup"
-            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-            >Internet Archive account</a
-        > or download it from Myrient instead.
-    </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-        Internet Archive Metadata
-    </h3>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        Internet Archive items have metadata files that end in extensions such
-        as <code
-            class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
-        >
-            .xml
-        </code>
-        and
-        <code
-            class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
-        >
-            .sqlite
-        </code>. These files are not important to download but are meant for the
-        website to know what files to display and the reviews of the item.
-        <img
-            src="src/img/internetarchivelock.png"
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
-    </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-        Internet Archive Torrents
-    </h3>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        Some Internet Archive items contain torrent files as another download
-        method. However, the torrent's file listing is usually incomplete
-        compared to what is listed on the website. For this reason, it is
-        recommended to use direct downloads with a download manager instead of
-        torrents.
-    </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-        Archive File Types (ZIP, 7z, RAR)
-    </h3>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        ZIP, 7z, and RAR are archive file types which means they must be
-        extracted. 7-Zip is recommended for extracting these files. Download and
-        install it <a
-            href="https://www.7-zip.org/"
-            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-            >here</a
-        >
-        and run it. Then, open the archive file in 7-Zip or right click on it and
-        go to <br />
-        <code
-            class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
-        >
-            7-Zip -> Extract Files
-        </code>.
-    </p>
-    <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-    >
-        Blocking Ads with uBlock Origin
-    </h2>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        uBlock Origin is recommended when accessing certain links on this
-        megathread and the Internet in general. It blocks ads, trackers,and much
-        more. <br /> Below are links to download and install it for certain web browsers.
-    </p>
     <div class="my-6 w-full overflow-y-auto">
         <table class="w-full">
             <thead>
@@ -158,12 +13,17 @@
                     <th
                         class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Store Name
+                        Title
                     </th>
                     <th
                         class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Links
+                        Myrient (Fast & Unrestricted)
+                    </th>
+                    <th
+                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Internet Archive
                     </th>
                 </tr>
             </thead>
@@ -172,47 +32,68 @@
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Chrome Web Store
+                        Xenoblade Chronicles (Wii) (USA)
                     </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
                         <a
-                            href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"
+                            href="https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20-%20NKit%20RVZ%20%5Bzstd-19-128k%5D/Xenoblade%20Chronicles%20%28USA%2C%20Asia%29%20%28En%2CFr%2CEs%29.zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Link</a
+                            >Download</a
                         >
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
                     </td>
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Firefox Add-ons
+                        Xenoblade Chronicles X (Wii U) (USA)
                     </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
                         <a
-                            href="https://addons.mozilla.org/en-US/android/addon/ublock-origin/"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Xenoblade%20Chronicles%20X%20(USA)%20(En,Fr,Es).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Link</a
+                            >Game</a
+                        >
+                        /
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Xenoblade%20Chronicles%20X%20(USA)%20(En,Fr,Es)%20(Update).zip"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Update</a
+                        >
+                        /
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Xenoblade%20Chronicles%20X%20(USA)%20(En,Fr,Es)%20(v0)%20(DLC).zip"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >DLC</a
                         >
                     </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Opera Add-ons
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
                         <a
-                            href="https://addons.opera.com/en/extensions/details/ublock/"
+                            href="https://archive.org/download/wii-u-retail-nus-usa/Xenoblade%20Chronicles%20X%20%5B00050000101C4D00%5D.7z"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Link</a
+                            >Game</a
+                        >
+                        /
+                        <a
+                            href="https://archive.org/download/wii-u-retail-nus-usa/Xenoblade%20Chronicles%20X%20%5B0005000E101C4D00%5D%20%5BUPDATE%20v48%5D.7z"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Update</a
+                        >
+                        /
+                        <a
+                            href="https://archive.org/download/wii-u-retail-nus-usa/Xenoblade%20Chronicles%20X%20%5B0005000C101C4D00%5D%20%5BDLC%5D.7z"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >DLC</a
                         >
                     </td>
                 </tr>
@@ -220,55 +101,10 @@
         </table>
     </div>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        For Android: Download Firefox from the Play Store, locate the Addons
-        menu and select uBlock Origin. Add it to Firefox and remember to only
-        use Firefox to download ROMs.
-    </p>
-    <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-    >
-        Bypassing Download Limits
-    </h2>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-        Google Drive
-    </h3>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        From time to time when trying to download a file, you may see an error
-        message saying “Download quota exceeded, so you can’t download this file
-        at this time”. The steps to bypass the download quota limit are as
-        follows:
-    </p>
-
-    <ol class="my-6 ml-6 font-medium list-decimal [&>li]:mt-2">
-        <li>
-            Sign in to your Google account or create one, if you have not
-            already.
-        </li>
-        <li>Open Google Drive and go to “My Drive” in the sidebar.</li>
-        <li>Make a new folder. It does not matter what you name it.</li>
-        <li>
-            Go to the quota'd folder, right click on the file you want to
-            download, and click “Add Shortcut to Drive”.
-        </li>
-        <li>
-            Navigate to “My Drive” and then to the folder you made, and click
-            “Add Shortcut”.
-        </li>
-        <li>
-            Go to “My Drive” on the sidebar. Right-click the folder you made and
-            click “Download”.
-        </li>
-        <li>A .zip file with the file(s) you selected starts downloading.</li>
-    </ol>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">MEGA</h3>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        MEGA has a 5 GB download limit every 24 hours. To bypass MEGA's download
-        limits, you will need either a VPN or a list of proxies. If you are
-        using a VPN, simply connect to it. If you are using a list of proxies,
-        download <a
-            href="https://github.com/tonikelope/megabasterd"
+        To run Wii U games in Cemu: Use <a
+            href="https://github.com/VitaSmith/cdecrypt/releases"
             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-            >MegaBasterd</a
-        > and configure it with the list of proxies.
+            >CDecrypt</a
+        > to unpack the files.
     </p>
 </div>

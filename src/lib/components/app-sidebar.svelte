@@ -23,7 +23,7 @@
             url: "/Populars/fire-emblem",
         },
         {
-            title: "Zelda",
+            title: "The Legend of Zelda",
             url: "/Populars/zelda",
         },
         {
@@ -48,27 +48,27 @@
     const Nintendo = [
         {
             title: "Nintendo Games",
-            url: "#nintendo-games",
+            url: "/Nintendo/nintendo-games",
         },
         {
             title: "Nintendo DS",
-            url: "#nintendo-ds",
+            url: "/Nintendo/nintendo-ds",
         },
         {
             title: "Nintendo 3DS",
-            url: "#nintendo-3ds",
+            url: "/Nintendo/nintendo-3ds",
         },
         {
             title: "Nintendo GameCube",
-            url: "#nintendo-gamecube",
+            url: "/Nintendo/nintendo-gamecube",
         },
         {
             title: "Nintendo Wii",
-            url: "#nintendo-wii",
+            url: "/Nintendo/nintendo-wii",
         },
         {
             title: "Nintendo Wii U",
-            url: "#nintendo-wii-u",
+            url: "/Nintendo/nintendo-wii-u",
         },
     ];
 
