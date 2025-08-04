@@ -30,13 +30,13 @@
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Fire Emblem Path of Radiance (GC) (USA)
+                        Nintendo - Family Computer Disk System (FDS)
                     </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
                         <a
-                            href="https://myrient.erista.me/files/Redump/Nintendo%20-%20GameCube%20-%20NKit%20RVZ%20[zstd-19-128k]/Fire%20Emblem%20-%20Path%20of%20Radiance%20(USA).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Family%20Computer%20Disk%20System%20(FDS)/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >
@@ -46,13 +46,13 @@
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Fire Emblem Radiant Dawn (Wii) (USA)
+                        Nintendo - Family Computer Disk System (QD)
                     </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
                         <a
-                            href="https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20-%20NKit%20RVZ%20[zstd-19-128k]/Fire%20Emblem%20-%20Radiant%20Dawn%20(USA)%20(Rev%201).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Family%20Computer%20Disk%20System%20(QD)/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >
@@ -62,13 +62,221 @@
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Fire Emblem Fates Special Edition (3DS) (USA)
+                        Nintendo - Game Boy Advance
                     </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
                         <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Fire%20Emblem%20Fates%20-%20Special%20Edition%20(USA).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Game Boy Advance (Multiboot)
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance%20(Multiboot)/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Game Boy Advance (Video)
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance%20(Video)/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Game Boy Advance (e-Reader)
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance%20(e-Reader)/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Game Boy Color
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Color/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Game Boy
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Nintendo 64 (BigEndian)
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%2064%20(BigEndian)/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Nintendo 64 (ByteSwapped)
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%2064%20(ByteSwapped)/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Nintendo 64DD
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%2064DD/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Nintendo Entertainment System (Headered)
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headered)/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Nintendo Entertainment System (Headerless)
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless)/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Pokemon Mini
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Pokemon%20Mini/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Super Nintendo Entertainment System
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/"
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            >Download</a
+                        >
+                    </td>
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Nintendo - Virtual Boy
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        <a
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Virtual%20Boy/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >

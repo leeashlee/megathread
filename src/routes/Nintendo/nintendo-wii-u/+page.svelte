@@ -4,8 +4,43 @@
 <!-- Home page for the ROMs megathread -->
 <div class="mx-8 mb-8 mt-8 space-y-4 bg-background">
     <h1 class="scroll-m-20 text-balance text-4xl font-extrabold tracking-tight">
-        Pokemon
+        Nintendo Wii U
     </h1>
+    <p class="leading-7 [&:not(:first-child)]:mt-6">
+        <a
+            href="https://github.com/Xpl0itU/WiiUDownloader/releases/latest"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >WiiUDownloader</a
+        >
+        meant to be a replacement for Wii U USB Helper as it is more lightweight
+        and supports Mac and Linux. <br /> If for whatever reason you want to
+        install Wii U USB Helper, you can follow
+        <a
+            href="https://wiki.agilly1989.xyz/books/wiiu/page/usbhelper-usbhelperlauncher"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >this guide</a
+        >.<br />
+        To unpack the files for Cemu, use
+        <a
+            href="https://github.com/VitaSmith/cdecrypt/releases/latest"
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            >CDecrypt</a
+        >.<br />
+        Follow this video guide to learn how to convert WUX files to WUD.
+    </p>
+    <video
+        controls
+        class="h-full w-full rounded-md object-cover"
+        autoplay
+        muted
+        playsinline
+        preload="metadata"
+        style="aspect-ratio: 16 / 9"
+        ><source
+            src="https://myrient.erista.me/assets/wux.mp4"
+            type="video/mp4"
+        /></video
+    >
     <div class="my-6 w-full overflow-y-auto">
         <table class="w-full">
             <thead>
@@ -32,806 +67,287 @@
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Pokemon Red (GB) (USA)
-                    </td>
+                        Nintendo Wii U Disc (USA) Full Set WUA Format (Embedded
+                        DLC &amp; Updates)</td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy/Pokemon%20-%20Red%20Version%20(USA,%20Europe)%20(SGB%20Enhanced).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/teamgt19/nintendo-wii-u-usa-full-set-wua-format-embedded-dlc-updates/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GB/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
+                    ></td>
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Nintendo Wii U [eShop] (USA) Full Set WUA Format
+                        (Embedded DLC &amp; Updates) + Virtual Console</td
                     >
-                        Pokemon Green (GB) (Japan)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy/Pocket%20Monsters%20-%20Midori%20(Japan)%20(SGB%20Enhanced).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/teamgt19/nintendo-wii-u-eshop-usa-full-set-wua-format-embedded-dlc-updates/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GB/Pocket%20Monsters%20-%20Midori%20%28Japan%29%20%28SGB%20Enhanced%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
+                    ></td>
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Nintendo - Wii U (Digital) (CDN)</td
                     >
-                        Pokemon Blue (GB) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy/Pokemon%20-%20Blue%20Version%20(USA,%20Europe)%20(SGB%20Enhanced).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GB/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
+                    ></td>
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: Retail NUS [USA]</td
                     >
-                        Pokemon Yellow (GB) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy/Pokemon%20-%20Yellow%20Version%20-%20Special%20Pikachu%20Edition%20(USA,%20Europe)%20(CGB+SGB%20Enhanced).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-retail-nus-usa/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GB/Pokemon%20-%20Yellow%20Version%20-%20Special%20Pikachu%20Edition%20%28USA%2C%20Europe%29%20%28CGB%2BSGB%20Enhanced%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-retail-nus-usa"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: Download NUS [USA]</td
                     >
-                        Pokemon Gold (GBC) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Color/Pokemon%20-%20Gold%20Version%20(USA,%20Europe)%20(SGB%20Enhanced)%20(GB%20Compatible).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-download-nus-usa/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GBC/Pokemon%20-%20Gold%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
+                    ></td>
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: TurboGrafx-16 NUS</td
                     >
-                        Pokemon Silver (GBC) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Color/Pokemon%20-%20Silver%20Version%20(USA,%20Europe)%20(SGB%20Enhanced)%20(GB%20Compatible).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-turbografx16-nus/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GBC/Pokemon%20-%20Silver%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-turbografx16-nus"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: Wii NUS</td
                     >
-                        Pokemon Crystal (GBC) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Color/Pokemon%20-%20Crystal%20Version%20(USA).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-wii-nus/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GBC/Pokemon%20-%20Crystal%20Version%20%28USA%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-wii-nus"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: Nintendo 64 NUS</td
                     >
-                        Pokemon Ruby (GBA) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Pokemon%20-%20Ruby%20Version%20(USA,%20Europe).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-nintendo-64-nus/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GBA/Pokemon%20-%20Ruby%20Version%20%28USA%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-nintendo-64-nus"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: NES &amp; Famicom NUS</td
                     >
-                        Pokemon Sapphire (GBA) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Pokemon%20-%20Sapphire%20Version%20(USA,%20Europe).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-nes-fc-nus/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GBA/Pokemon%20-%20Sapphire%20Version%20%28USA%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-nes-fc-nus"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: Super Nintendo NUS</td
                     >
-                        Pokemon FireRed (GBA) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Pokemon%20-%20FireRed%20Version%20(USA,%20Europe).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-super-nintendo-snes-nus/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GBA/Pokemon%20-%20FireRed%20Version%20%28USA%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-super-nintendo-snes-nus"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: Nintendo DS NUS</td
                     >
-                        Pokemon LeafGreen (GBA) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Pokemon%20-%20LeafGreen%20Version%20(USA,%20Europe).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-nintendo-ds-nds-nus/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GBA/Pokemon%20-%20LeafGreen%20Version%20%28USA%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-nintendo-ds-nds-nus"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: Gameboy Advance NUS</td
                     >
-                        Pokemon Emerald (GBA) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-gameboy-advance-nus/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/GBA/Pokemon%20-%20Emerald%20Version%20%28USA%2C%20Europe%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-gameboy-advance-nus"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Wii U: Retail Game Disc NUS</td
                     >
-                        Pokemon Diamond (NDS) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20Diamond%20Version%20(USA)%20(Rev%205).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-retail-game-disc-nus-usa/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20Diamond%20Version%20%28USA%29%20%28Rev%205%29.zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/wii-u-retail-game-disc-nus-usa"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Nintendo - Wii U - WUX</td
                     >
-                        Pokemon Pearl (NDS) (USA)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20Pearl%20Version%20(USA)%20(Rev%205).zip"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20Pearl%20Version%20%28USA%29%20%28Rev%205%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Platinum (NDS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20Platinum%20Version%20(USA).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20Platinum%20Version%20%28USA%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon HeartGold (NDS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20HeartGold%20Version%20(USA).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20HeartGold%20Version%20%28USA%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon SoulSilver (NDS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20SoulSilver%20Version%20(USA,%20Australia).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20SoulSilver%20Version%20%28USA%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Black (NDS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20Black%20Version%20(USA,%20Europe)%20(NDSi%20Enhanced).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20Black%20Version%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon White (NDS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20White%20Version%20(USA,%20Europe)%20(NDSi%20Enhanced).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20White%20Version%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Black 2 (NDS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20Black%20Version%202%20(USA,%20Europe)%20(NDSi%20Enhanced).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20Black%20Version%202%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon White 2 (NDS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20White%20Version%202%20(USA,%20Europe)%20(NDSi%20Enhanced).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/pkmn%20collection/NDS/Pokemon%20-%20White%20Version%202%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon X (3DS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20X%20(USA)%20(En,Ja,Fr,De,Es,It,Ko).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Digital)%20(Deprecated)/Pokemon%20X%20(World)%20(En,Ja,Fr,De,Es,It,Ko)%20(Legit%20CIA).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20X%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CKo%29%20%283DS%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20X%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Y (3DS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Y%20(USA)%20(En,Ja,Fr,De,Es,It,Ko).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Digital)%20(Deprecated)/Pokemon%20Y%20(World)%20(En,Ja,Fr,De,Es,It,Ko)%20(Legit%20CIA).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Y%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CKo%29%20%283DS%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Y%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Omega Ruby (3DS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Omega%20Ruby%20(USA)%20(En,Ja,Fr,De,Es,It,Ko)%20(Rev%202).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Digital)%20(Deprecated)/Pokemon%20-%20Omega%20Ruby%20(World)%20(En,Ja,Fr,De,Es,It,Ko)%20(Legit%20CIA).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Omega%20Ruby%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CKo%29%20%28Rev%202%29%20%283DS%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Omega%20Ruby%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CKo%29%20%28Rev%202%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Alpha Sapphire (3DS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Alpha%20Sapphire%20(USA)%20(En,Ja,Fr,De,Es,It,Ko)%20(Rev%202).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Digital)%20(Deprecated)/Pokemon%20-%20Alpha%20Sapphire%20(World)%20(En,Ja,Fr,De,Es,It,Ko)%20(Legit%20CIA).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Alpha%20Sapphire%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CKo%29%20%28Rev%202%29%20%283DS%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Alpha%20Sapphire%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CKo%29%20%28Rev%202%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Sun (3DS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Sun%20(USA)%20(En,Ja,Fr,De,Es,It,Zh,Ko).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/pkmn_collection/3DS/Pokemon%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%283DS%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Moon (3DS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Moon%20(USA)%20(En,Ja,Fr,De,Es,It,Zh,Ko).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/pkmn_collection/3DS/Pokemon%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%283DS%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Ultra Sun (3DS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Ultra%20Sun%20(USA)%20(En,Ja,Fr,De,Es,It,Zh,Ko).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/pkmn_collection/3DS/Pokemon%20Ultra%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Ultra%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%283DS%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Ultra%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Pokemon Ultra Moon (3DS) (USA)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Ultra%20Moon%20(USA)%20(En,Ja,Fr,De,Es,It,Zh,Ko).zip"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/pkmn_collection/3DS/Pokemon%20Ultra%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Ultra%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%283DS%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >3DS</a
-                        > /
-                        <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Ultra%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >CIA</a
-                        >
-                    </td>
+                    ></td>
                 </tr>
             </tbody>
         </table>
