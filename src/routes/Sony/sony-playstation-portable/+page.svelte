@@ -6,9 +6,6 @@
     <h1 class="scroll-m-20 text-balance text-4xl font-extrabold tracking-tight">
         Sony Playstation Portable (PSP)
     </h1>
-    <p class="leading-7 [&:not(:first-child)]:mt-6">
-        If you are looking for Retro ROMs, see the <a href="#retro-games">Retro Games page</a>.
-    </p>
     <div class="my-6 w-full overflow-y-auto">
         <table class="w-full">
             <thead>
@@ -16,271 +13,210 @@
                     <th
                         class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Title
-                    </th>
+                        Title</th
+                    >
                     <th
                         class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        Myrient (Fast & Unrestricted)
-                    </th>
+                        Myrient(Fast &amp; Unrestricted)</th
+                    >
+                    <th
+                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                        Internet Archive</th
+                    >
                 </tr>
             </thead>
             <tbody>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Sony - PlayStation Portable</td
                     >
-                        Nintendo - Family Computer Disk System (FDS)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Family%20Computer%20Disk%20System%20(FDS)/"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Redump/Sony%20-%20PlayStation%20Portable/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    ></td>
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP Redump .iso (Part 1)</td
                     >
-                        Nintendo - Family Computer Disk System (QD)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Family%20Computer%20Disk%20System%20(QD)/"
+                    ></td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_portable_part1"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP Redump .iso (Part 2)</td
                     >
-                        Nintendo - Game Boy Advance
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/"
+                    ></td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_portable_part2"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP Redump .iso (Part 3)</td
                     >
-                        Nintendo - Game Boy Advance (Multiboot)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance%20(Multiboot)/"
+                    ></td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_portable_part3"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP Redump .iso (Part 4)</td
                     >
-                        Nintendo - Game Boy Advance (Video)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance%20(Video)/"
+                    ></td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_portable_part4"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP Redump .chd (Part 1)</td
                     >
-                        Nintendo - Game Boy Advance (e-Reader)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance%20(e-Reader)/"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/psp-chd-zstd-redump-part1/psp-chd-zstd/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/psp-chd-zstd-redump-part1/psp-chd-zstd/"
+                            >Download</a
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP Redump .chd (Part 2)</td
                     >
-                        Nintendo - Game Boy Color
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Color/"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/psp-chd-zstd-redump-part2/psp-chd-zstd/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/psp-chd-zstd-redump-part2/psp-chd-zstd/"
+                            >Download</a
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP DLC</td
                     >
-                        Nintendo - Game Boy
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy/"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/storage_manager/PSP-DLC/PSP%20DLC/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/PSP-DLC/PSP%20DLC/"
+                            >Download</a
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP No-Intro DLC</td
                     >
-                        Nintendo - Nintendo 64 (BigEndian)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%2064%20(BigEndian)/"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/storage_manager/PSP-DLC/%5BNo-Intro%5D%20PSP%20DLC/"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/PSP-DLC/%5BNo-Intro%5D%20PSP%20DLC/"
+                            >Download</a
+                        ></td
+                    >
                 </tr>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PSP DLC (Alvro Files)</td
                     >
-                        Nintendo - Nintendo 64 (ByteSwapped)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%2064%20(ByteSwapped)/"
+                    ></td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/PSP_DLC"
                             >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ></td
                     >
-                        Nintendo - Nintendo 64DD
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%2064DD/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Nintendo Entertainment System (Headered)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headered)/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Nintendo Entertainment System (Headerless)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless)/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Pokemon Mini
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Pokemon%20Mini/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Super Nintendo Entertainment System
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Virtual Boy
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Virtual%20Boy/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
                 </tr>
             </tbody>
         </table>

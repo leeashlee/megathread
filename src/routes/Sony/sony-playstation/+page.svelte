@@ -25,203 +25,19 @@
                     >
                         Internet Archive
                     </th>
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Open Directory
-                    </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Sony - PlayStation</td
                     >
-                        Nintendo - Nintendo DS (Decrypted)
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Decrypted)/"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Nintendo DS (Encrypted)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Nintendo DS (Download Play)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Download%20Play)/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Nintendo DSi (Decrypted)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DSi%20(Decrypted)/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Nintendo DSi (Encrypted)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DSi%20(Encrypted)/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Nintendo - Nintendo DSi (Digital)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DSi%20(Digital)/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        DSiWare
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/MarioCubeLite/DSiWare/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://repo.mariocube.com/DSiWare/"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            >Download</a
-                        >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        No-Intro Nintendo DS (Download Play) (2022-07-07)
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        <a
-                            href="https://archive.org/download/no-intro-nintendo-nintendo-ds-download-play_202207"
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Redump/Sony%20-%20PlayStation/"
                             >Download</a
                         >
                     </td>
@@ -233,31 +49,202 @@
                 <tr class="even:bg-muted m-0 border-t p-0">
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Sony PlayStation (Part 1: #-D) - Redump.org</td
                     >
-                        Nintendo DS Anti-Piracy Fixed ROMs
-                    </td>
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        <a
-                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/nds_apfix/apfix/"
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_part1"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Sony PlayStation (Part 2: E-I) - Redump.org</td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
-                        <a
-                            href="https://archive.org/download/nds_apfix/apfix/"
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_part2"
                             >Download</a
-                        >
-                    </td>
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Sony PlayStation (Part 3: J-N) - Redump.org</td
+                    >
                     <td
                         class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
                     >
                     </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_part3"
+                            >Download</a
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Sony PlayStation (Part 4: O-S) - Redump.org</td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_part4"
+                            >Download</a
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >Sony PlayStation (Part 5: T-Z) - Redump.org</td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    >
+                    </td>
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/sony_playstation_part5"
+                            >Download</a
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PS1 Redump .chd USA</td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_psx/CHD-PSX-USA/"
+                            >Download</a
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/chd_psx/CHD-PSX-USA/"
+                            >Download</a
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PS1 Redump .chd EUR</td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_psx_eur/CHD-PSX-EUR/"
+                            >Download</a
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/chd_psx_eur/CHD-PSX-EUR/"
+                            >Download</a
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PS1 Redump .chd JPN Part 1</td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_psx_jap/CHD-PSX-JAP/"
+                            >Download</a
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/"
+                            >Download</a
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PS1 Redump .chd JPN Part 2</td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_psx_jap_p2/CHD-PSX-JAP/"
+                            >Download</a
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/"
+                            >Download</a
+                        ></td
+                    >
+                </tr>
+                <tr class="even:bg-muted m-0 border-t p-0">
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        >PS1 Redump .chd Misc</td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_psx_misc/CHD-PSX-Misc/"
+                            >Download</a
+                        ></td
+                    >
+                    <td
+                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                        ><a
+                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                            href="https://archive.org/download/chd_psx_misc/CHD-PSX-Misc/"
+                            >Download</a
+                        ></td
+                    >
                 </tr>
             </tbody>
         </table>
