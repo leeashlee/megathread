@@ -76,27 +76,27 @@
     const sony = [
         {
             title: "NoPayStation",
-            url: "#no-pay-station",
+            url: "/Sony/nopaystation",
         },
         {
             title: "Sony Playstation",
-            url: "#sony-playstation",
+            url: "/Sony/sony-playstation",
         },
         {
             title: "Sony Playstation 2",
-            url: "#sony-playstation-2",
+            url: "/Sony/sony-playstation-2",
         },
         {
             title: "Sony Playstation Portable",
-            url: "#sony-playstation-portable",
+            url: "/Sony/sony-playstation-portable",
         },
         {
             title: "Sony Playstation 3",
-            url: "#sony-playstation-3",
+            url: "/Sony/sony-playstation-3",
         },
         {
             title: "Sony Playstation Vita",
-            url: "#sony-playstation-vita",
+            url: "/Sony/sony-playstation-vita",
         },
     ];
 
