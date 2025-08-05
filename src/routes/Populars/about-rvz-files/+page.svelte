@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { base } from "$app/paths";
+
 </script>
 
 <!-- Home page for the ROMs megathread -->
@@ -18,12 +20,12 @@
         >
         to convert the files to ISO<br />
         <img
-            src="/src/img/9K4CIDd.png"
+            src={base + "/static/img/9K4CIDd.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
         <img
-            src="/src/img/75nhplt.png"
+            src={base + "/static/img/75nhplt.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />

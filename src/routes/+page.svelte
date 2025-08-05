@@ -7,6 +7,7 @@
         TableHeader,
         TableRow,
     } from "$lib/components/ui/table/index.js";
+    import { base } from '$app/paths'
 </script>
 
 <!-- Home page for the ROMs megathread -->
@@ -73,19 +74,19 @@
         of a group of links, it is a collection of the currently best-available
         ROMs for the system.
         <img
-            src="src/img/internetarchivelock.png"
+            src={base + "/static/img/internetarchivelock.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
         When accessing the file directly, one of the following errors is shown.
         <img
-            src="src/img/internetarchivelockfile1.png"
+            src={base + "/static/img/internetarchivelockfile1.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
         <br />
         <img
-            src="src/img/internetarchivelockfile2.png"
+            src={base + "/static/img/internetarchivelockfile2.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
@@ -114,7 +115,7 @@
         </code>. These files are not important to download but are meant for the
         website to know what files to display and the reviews of the item.
         <img
-            src="src/img/internetarchivelock.png"
+            src={base + "/static/img/internetarchivelock.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
