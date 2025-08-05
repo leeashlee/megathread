@@ -1,46 +1,44 @@
 <script lang="ts">
     import * as Sidebar from "$lib/components/ui/sidebar/index.js";
-    import * as Collapsible from "$lib/components/ui/collapsible/index.js";
-    import MinusIcon from "@lucide/svelte/icons/minus";
-    import PlusIcon from "@lucide/svelte/icons/plus";
+    import { base } from "$app/paths";
 
     //Popular items,
     const populars = [
         {
             title: "About RVZ files",
-            url: "/Populars/about-rvz-files",
+            url: base + "/Populars/about-rvz-files",
         },
         {
             title: "Metroid",
-            url: "/Populars/metroid",
+            url: base + "/Populars/metroid",
         },
         {
             title: "Mario",
-            url: "/Populars/mario",
+            url: base + "/Populars/mario",
         },
         {
             title: "Fire Emblem",
-            url: "/Populars/fire-emblem",
+            url: base + "/Populars/fire-emblem",
         },
         {
             title: "The Legend of Zelda",
-            url: "/Populars/zelda",
+            url: base + "/Populars/zelda",
         },
         {
             title: "Pokemon",
-            url: "/Populars/pokemon",
+            url: base + "/Populars/pokemon",
         },
         {
             title: "Persona",
-            url: "/Populars/persona",
+            url: base + "/Populars/persona",
         },
         {
             title: "Super Smash Bros",
-            url: "/Populars/super-smash-bros",
+            url: base + "/Populars/super-smash-bros",
         },
         {
             title: "Xenoblade",
-            url: "/Populars/xenoblade",
+            url: base + "/Populars/xenoblade",
         },
     ];
 
@@ -48,27 +46,27 @@
     const Nintendo = [
         {
             title: "Nintendo Games",
-            url: "/Nintendo/nintendo-games",
+            url: base + "/Nintendo/nintendo-games",
         },
         {
             title: "Nintendo DS",
-            url: "/Nintendo/nintendo-ds",
+            url: base + "/Nintendo/nintendo-ds",
         },
         {
             title: "Nintendo 3DS",
-            url: "/Nintendo/nintendo-3ds",
+            url: base + "/Nintendo/nintendo-3ds",
         },
         {
             title: "Nintendo GameCube",
-            url: "/Nintendo/nintendo-gamecube",
+            url: base + "/Nintendo/nintendo-gamecube",
         },
         {
             title: "Nintendo Wii",
-            url: "/Nintendo/nintendo-wii",
+            url: base + "/Nintendo/nintendo-wii",
         },
         {
             title: "Nintendo Wii U",
-            url: "/Nintendo/nintendo-wii-u",
+            url: base + "/Nintendo/nintendo-wii-u",
         },
     ];
 
@@ -76,27 +74,27 @@
     const sony = [
         {
             title: "NoPayStation",
-            url: "/Sony/nopaystation",
+            url: base + "/Sony/nopaystation",
         },
         {
             title: "Sony Playstation",
-            url: "/Sony/sony-playstation",
+            url: base + "/Sony/sony-playstation",
         },
         {
             title: "Sony Playstation 2",
-            url: "/Sony/sony-playstation-2",
+            url: base + "/Sony/sony-playstation-2",
         },
         {
             title: "Sony Playstation Portable",
-            url: "/Sony/sony-playstation-portable",
+            url: base + "/Sony/sony-playstation-portable",
         },
         {
             title: "Sony Playstation 3",
-            url: "/Sony/sony-playstation-3",
+            url: base + "/Sony/sony-playstation-3",
         },
         {
             title: "Sony Playstation Vita",
-            url: "/Sony/sony-playstation-vita",
+            url: base + "/Sony/sony-playstation-vita",
         },
     ];
 
@@ -104,11 +102,11 @@
     const microsoft = [
         {
             title: "Microsoft Xbox",
-            url: "/Microsoft/microsoft-xbox",
+            url: base + "/Microsoft/microsoft-xbox",
         },
         {
             title: "Microsoft Xbox 360",
-            url: "/Microsoft/microsoft-xbox360",
+            url: base + "/Microsoft/microsoft-xbox360",
         },
     ];
 
@@ -116,19 +114,19 @@
     const sega = [
         {
             title: "Sega Games",
-            url: "/Sega/sega-games",
+            url: base + "/Sega/sega-games",
         },
         {
             title: "Sega Dreamcast",
-            url: "/Sega/sega-dreamcast",
+            url: base + "/Sega/sega-dreamcast",
         },
         {
             title: "Sega Saturn",
-            url: "/Sega/sega-saturn",
+            url: base + "/Sega/sega-saturn",
         },
         {
             title: "Sega CD",
-            url: "/Sega/sega-cd",
+            url: base + "/Sega/sega-cd",
         },
     ];
 
@@ -136,11 +134,11 @@
     const retroArcade = [
         {
             title: "Retro Games",
-            url: "#retro-games",
+            url: base + "#retro-games",
         },
         {
             title: "Arcade",
-            url: "#arcade-games",
+            url: base + "#arcade-games",
         },
     ];
 
@@ -148,7 +146,7 @@
     const pc = [
         {
             title: "PC Games",
-            url: "#pc-games",
+            url: base + "#pc-games",
         },
     ];
 
@@ -156,11 +154,11 @@
     const misc = [
         {
             title: "ROM Sets",
-            url: "#rom-sets",
+            url: base + "#rom-sets",
         },
         {
             title: "BIOS Files",
-            url: "#bios-files",
+            url: base + "#bios-files",
         },
     ];
 </script>
