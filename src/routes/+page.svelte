@@ -56,11 +56,11 @@
         Additional Information
     </h2>
     <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
-        "No-InTableRowo" and "Redump"
+        "No-Intro" and "Redump"
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        No-InTableRowo and Redump are groups that catalog hashes of dumped games
-        for many systems. If "No-InTableRowo" or "Redump" is present in the name
+        No-Intro and Redump are groups that catalog hashes of dumped games
+        for many systems. If "No-Intro" or "Redump" is present in the name
         of a group of links, it is a collection of the currently best-available
         ROMs for the system.
     </p>
@@ -68,8 +68,8 @@
         Locked Internet Archive Items
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        No-InTableRowo and Redump are groups that catalog hashes of dumped games
-        for many systems. If "No-InTableRowo" or "Redump" is present in the name
+        No-Intro and Redump are groups that catalog hashes of dumped games
+        for many systems. If "No-Intro" or "Redump" is present in the name
         of a group of links, it is a collection of the currently best-available
         ROMs for the system.
         <img

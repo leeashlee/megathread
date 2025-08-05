@@ -116,19 +116,19 @@
     const sega = [
         {
             title: "Sega Games",
-            url: "#sega-games",
+            url: "/Sega/sega-games",
         },
         {
             title: "Sega Dreamcast",
-            url: "#sega-dreamcast",
+            url: "/Sega/sega-dreamcast",
         },
         {
             title: "Sega Saturn",
-            url: "#sega-saturn",
+            url: "/Sega/sega-saturn",
         },
         {
             title: "Sega CD",
-            url: "#sega-cd",
+            url: "/Sega/sega-cd",
         },
     ];
 
