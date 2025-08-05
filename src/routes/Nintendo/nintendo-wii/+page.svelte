@@ -1,4 +1,12 @@
 <script lang="ts">
+    import {
+        Table,
+        TableBody,
+        TableCell,
+        TableHead,
+        TableHeader,
+        TableRow,
+    } from "$lib/components/ui/table/index.js";
 </script>
 
 <!-- Home page for the ROMs megathread -->
@@ -21,167 +29,103 @@
         > so using RVZ is recommended over NKit.
     </p>
     <div class="my-6 w-full overflow-y-auto">
-        <table class="w-full">
-            <thead>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Title
-                    </th>
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Myrient (Fast & Unrestricted)
-                    </th>
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Internet Archive
-                    </th>
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Open Directory
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
+        <Table>
+            <TableHeader>
+                <TableRow>
+                    <TableHead>Title</TableHead>
+                    <TableHead>Myrient (Fast & UnresTableRowicted)</TableHead>
+                    <TableHead>Internet Archive</TableHead>
+                    <TableHead>Open Directory</TableHead>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                <TableRow>
+                    <TableCell>
                         Nintendo - Wii - NKit RVZ [zstd-19-128k]
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
+                    </TableCell>
+                    <TableCell>
                         <a
                             href="https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20-%20NKit%20RVZ%20[zstd-19-128k]/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii Rom Set By Ghostware Part 1</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    </TableCell>
+                    <TableCell></TableCell>
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii Rom Set By Ghostware Part 1</TableCell>
+                    <TableCell
                         ><a
                             href="https://myrient.erista.me/files/Internet%20Archive/kodi_amp_spmc_canada/WiiRomSetByGhostware/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii Rom Set By Ghostware Part 2</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii Rom Set By Ghostware Part 2</TableCell>
+                    <TableCell
                         ><a
                             href="https://myrient.erista.me/files/Internet%20Archive/kodi_amp_spmc_canada/WiiRomSetByGhostwarePart2/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii Rom Set By Ghostware Part 3</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii Rom Set By Ghostware Part 3</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/kodi_amp_spmc_canada/WiiRomSetByGhostwarePart3/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >WiiWare, VC, DLC, Channels &amp; IOS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>WiiWare, VC, DLC, Channels &amp; IOS</TableCell>
+                    <TableCell></TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://repo.mariocube.com/WADs/_WiiWare,%20VC,%20DLC,%20Channels%20&amp;%20IOS/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/MarioCubeLite/WADs/_WiiWare%2C%20VC%2C%20DLC%2C%20Channels%20%26%20IOS/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >NKit Fully Loaded</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>NKit Fully Loaded</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/NKitFullyLoaded2020429/NKit%202020.4.29/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/NKitFullyLoaded2020429/NKit%202020.4.29"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-            </tbody>
-        </table>
+                    <TableCell></TableCell>
+                </TableRow>
+            </TableBody>
+        </Table>
     </div>
 </div>

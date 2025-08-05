@@ -104,11 +104,11 @@
     const microsoft = [
         {
             title: "Microsoft Xbox",
-            url: "#microsoft-xbox",
+            url: "/Microsoft/microsoft-xbox",
         },
         {
             title: "Microsoft Xbox 360",
-            url: "#microsoft-xbox-360",
+            url: "/Microsoft/microsoft-xbox360",
         },
     ];
 

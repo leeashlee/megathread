@@ -1,4 +1,12 @@
 <script lang="ts">
+    import {
+        Table,
+        TableBody,
+        TableCell,
+        TableHead,
+        TableHeader,
+        TableRow,
+    } from "$lib/components/ui/table/index.js";
 </script>
 
 <!-- Home page for the ROMs megathread -->
@@ -15,222 +23,177 @@
         below if you are looking for content NoPayStation does not have.
     </p>
     <div class="my-6 w-full overflow-y-auto">
-        <table class="w-full">
-            <thead>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <th
+        <Table>
+            <TableHeader>
+                <TableRow>
+                    <TableHead
                         class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Title</th
+                        >Title</TableHead
                     >
-                    <th
+                    <TableHead
                         class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Myrient (Fast &amp; Unrestricted)</th
+                        >Myrient (Fast &amp; UnresTableRowicted)</TableHead
                     >
-                    <th
+                    <TableHead
                         class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Internet Archive</th
+                        >Internet Archive</TableHead
                     >
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                <TableRow>
+                    <TableCell>
+                        Sony - PlayStation Vita (PSN) (Content)</TableCell
                     >
-                        Sony - PlayStation Vita (PSN) (Content)</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Sony%20-%20PlayStation%20Vita%20(PSN)%20(Content)/"
+                            href="https://myrient.erista.me/files/No-InTableRowo/Sony%20-%20PlayStation%20Vita%20(PSN)%20(Content)/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Sony - PlayStation Vita (PSN) (Updates)</td
+                </TableRow>
+                <TableRow>
+                    <TableCell
+                        >Sony - PlayStation Vita (PSN) (Updates)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Sony%20-%20PlayStation%20Vita%20(PSN)%20(Updates)/"
+                            href="https://myrient.erista.me/files/No-InTableRowo/Sony%20-%20PlayStation%20Vita%20(PSN)%20(Updates)/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Unofficial - Sony - PlayStation Vita (BlackFinPSV)</td
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell
+                        >Unofficial - Sony - PlayStation Vita (BlackFinPSV)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(BlackFinPSV)/"
+                            href="https://myrient.erista.me/files/No-InTableRowo/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(BlackFinPSV)/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Unofficial - Sony - PlayStation Vita (NoNpDrm)</td
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell
+                        >Unofficial - Sony - PlayStation Vita (NoNpDrm)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(NoNpDrm)/"
+                            href="https://myrient.erista.me/files/No-InTableRowo/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(NoNpDrm)/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell
                         >Unofficial - Sony - PlayStation Vita (PSN) (Decrypted)
-                        (VPK)</td
+                        (VPK)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(PSN)%20(Decrypted)%20(VPK)/"
+                            href="https://myrient.erista.me/files/No-InTableRowo/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(PSN)%20(Decrypted)%20(VPK)/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Unofficial - Sony - PlayStation Vita (PSVgameSD)</td
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell
+                        >Unofficial - Sony - PlayStation Vita (PSVgameSD)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(PSVgameSD)/"
+                            href="https://myrient.erista.me/files/No-InTableRowo/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(PSVgameSD)/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Unofficial - Sony - PlayStation Vita (VPK)</td
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell
+                        >Unofficial - Sony - PlayStation Vita (VPK)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(VPK)/"
+                            href="https://myrient.erista.me/files/No-InTableRowo/Unofficial%20-%20Sony%20-%20PlayStation%20Vita%20(VPK)/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Sony - PlayStation Vita Games (USA)(NoNpDRM)</td
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell
+                        >Sony - PlayStation Vita Games (USA)(NoNpDRM)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/sony-playstation-vita-usa-full-set-nonpdrm-format"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell
                         >Sony - PlayStation Vita DLC &amp; Updates
-                        (USA)(NoNpDRM)</td
+                        (USA)(NoNpDRM)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/teamgt19/sony-playstation-vita-usa-full-set-nonpdrm-format-dlc-updates/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/sony-playstation-vita-usa-full-set-nonpdrm-format-dlc-updates"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >PSVITA VPK</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>PSVITA VPK</TableCell>
+                    <TableCell></TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/PSVITA_VPK"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >PSVITA MAIDUMP</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>PSVITA MAIDUMP</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/aitus95/PSVITA_MAIDUMP/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/PSVITA_MAIDUMP"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-            </tbody>
-        </table>
+                </TableRow>
+            </TableBody>
+        </Table>
     </div>
 </div>

@@ -1,5 +1,12 @@
 <script lang="ts">
-    
+    import {
+        Table,
+        TableBody,
+        TableCell,
+        TableHead,
+        TableHeader,
+        TableRow,
+    } from "$lib/components/ui/table/index.js";
 </script>
 
 <!-- Home page for the ROMs megathread -->
@@ -13,7 +20,7 @@
         Use the menu bar on the side to navigate this megathread.
     </p>
     <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
     >
         Donate to Myrient and/or the Internet Archive
     </h2>
@@ -44,27 +51,27 @@
         >.
     </p>
     <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
     >
         Additional Information
     </h2>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-        "No-Intro" and "Redump"
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+        "No-InTableRowo" and "Redump"
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        No-Intro and Redump are groups that catalog hashes of dumped games for
-        many systems. If "No-Intro" or "Redump" is present in the name of a
-        group of links, it is a collection of the currently best-available ROMs
-        for the system.
+        No-InTableRowo and Redump are groups that catalog hashes of dumped games
+        for many systems. If "No-InTableRowo" or "Redump" is present in the name
+        of a group of links, it is a collection of the currently best-available
+        ROMs for the system.
     </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
         Locked Internet Archive Items
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        No-Intro and Redump are groups that catalog hashes of dumped games for
-        many systems. If "No-Intro" or "Redump" is present in the name of a
-        group of links, it is a collection of the currently best-available ROMs
-        for the system.
+        No-InTableRowo and Redump are groups that catalog hashes of dumped games
+        for many systems. If "No-InTableRowo" or "Redump" is present in the name
+        of a group of links, it is a collection of the currently best-available
+        ROMs for the system.
         <img
             src="src/img/internetarchivelock.png"
             alt=""
@@ -89,7 +96,7 @@
             >Internet Archive account</a
         > or download it from Myrient instead.
     </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
         Internet Archive Metadata
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
@@ -112,7 +119,7 @@
             class="h-full w-full rounded-md object-cover"
         />
     </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
         Internet Archive Torrents
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
@@ -122,13 +129,13 @@
         recommended to use direct downloads with a download manager instead of
         torrents.
     </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
         Archive File Types (ZIP, 7z, RAR)
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
         ZIP, 7z, and RAR are archive file types which means they must be
-        extracted. 7-Zip is recommended for extracting these files. Download and
-        install it <a
+        exTableRowacted. 7-Zip is recommended for exTableRowacting these files.
+        Download and install it <a
             href="https://www.7-zip.org/"
             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
             >here</a
@@ -138,86 +145,61 @@
         <code
             class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
         >
-            7-Zip -> Extract Files
+            7-Zip -> ExTableRowact Files
         </code>.
     </p>
     <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
     >
         Blocking Ads with uBlock Origin
     </h2>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
         uBlock Origin is recommended when accessing certain links on this
-        megathread and the Internet in general. It blocks ads, trackers,and much
-        more. <br /> Below are links to download and install it for certain web browsers.
+        megathread and the Internet in general. It blocks ads,
+        TableRowackers,and much more. <br /> Below are links to download and install
+        it for certain web browsers.
     </p>
     <div class="my-6 w-full overflow-y-auto">
-        <table class="w-full">
-            <thead>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Store Name
-                    </th>
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Links
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Chrome Web Store
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
+        <Table>
+            <TableHeader>
+                <TableRow>
+                    <TableHead>Store Name</TableHead>
+                    <TableHead>Links</TableHead>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                <TableRow>
+                    <TableCell>Chrome Web Store</TableCell>
+                    <TableCell>
                         <a
                             href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Link</a
                         >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Firefox Add-ons
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>Firefox Add-ons</TableCell>
+                    <TableCell>
                         <a
                             href="https://addons.mozilla.org/en-US/android/addon/ublock-origin/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Link</a
                         >
-                    </td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Opera Add-ons
-                    </td>
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>Opera Add-ons</TableCell>
+                    <TableCell>
                         <a
                             href="https://addons.opera.com/en/extensions/details/ublock/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Link</a
                         >
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                    </TableCell>
+                </TableRow>
+            </TableBody>
+        </Table>
     </div>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
         For Android: Download Firefox from the Play Store, locate the Addons
@@ -225,18 +207,18 @@
         use Firefox to download ROMs.
     </p>
     <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
     >
         Bypassing Download Limits
     </h2>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
         Google Drive
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        From time to time when trying to download a file, you may see an error
-        message saying “Download quota exceeded, so you can’t download this file
-        at this time”. The steps to bypass the download quota limit are as
-        follows:
+        From time to time when TableRowying to download a file, you may see an
+        error message saying “Download quota exceeded, so you can’t download
+        this file at this time”. The steps to bypass the download quota limit
+        are as follows:
     </p>
 
     <ol class="my-6 ml-6 font-medium list-decimal [&>li]:mt-2">
@@ -260,7 +242,9 @@
         </li>
         <li>A .zip file with the file(s) you selected starts downloading.</li>
     </ol>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">MEGA</h3>
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+        MEGA
+    </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
         MEGA has a 5 GB download limit every 24 hours. To bypass MEGA's download
         limits, you will need either a VPN or a list of proxies. If you are

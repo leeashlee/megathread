@@ -1,4 +1,12 @@
 <script lang="ts">
+    import {
+        Table,
+        TableBody,
+        TableCell,
+        TableHead,
+        TableHeader,
+        TableRow,
+    } from "$lib/components/ui/table/index.js";
 </script>
 
 <!-- Home page for the ROMs megathread -->
@@ -42,314 +50,230 @@
         /></video
     >
     <div class="my-6 w-full overflow-y-auto">
-        <table class="w-full">
-            <thead>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Title
-                    </th>
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Myrient (Fast & Unrestricted)
-                    </th>
-                    <th
-                        class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
-                        Internet Archive
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    >
+        <Table>
+            <TableHeader>
+                <TableRow>
+                    <TableHead>Title</TableHead>
+                    <TableHead>Myrient (Fast & UnresTableRowicted)</TableHead>
+                    <TableHead>Internet Archive</TableHead>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                <TableRow>
+                    <TableCell>
                         Nintendo Wii U Disc (USA) Full Set WUA Format (Embedded
-                        DLC &amp; Updates)</td
+                        DLC &amp; Updates)</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/teamgt19/nintendo-wii-u-usa-full-set-wua-format-embedded-dlc-updates/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell
                         >Nintendo Wii U [eShop] (USA) Full Set WUA Format
-                        (Embedded DLC &amp; Updates) + Virtual Console</td
+                        (Embedded DLC &amp; Updates) + Virtual Console</TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/teamgt19/nintendo-wii-u-eshop-usa-full-set-wua-format-embedded-dlc-updates/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Nintendo - Wii U (Digital) (CDN)</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>Nintendo - Wii U (Digital) (CDN)</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/"
+                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: Retail NUS [USA]</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: Retail NUS [USA]</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-retail-nus-usa/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-retail-nus-usa"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: Download NUS [USA]</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: Download NUS [USA]</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-download-nus-usa/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: TurboGrafx-16 NUS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell></TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: TurboGrafx-16 NUS</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-turbografx16-nus/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-turbografx16-nus"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: Wii NUS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: Wii NUS</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-wii-nus/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-wii-nus"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: Nintendo 64 NUS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: Nintendo 64 NUS</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-nintendo-64-nus/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-nintendo-64-nus"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: NES &amp; Famicom NUS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: NES &amp; Famicom NUS</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-nes-fc-nus/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-nes-fc-nus"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: Super Nintendo NUS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: Super Nintendo NUS</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-super-nintendo-snes-nus/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-super-nintendo-snes-nus"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: Nintendo DS NUS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: Nintendo DS NUS</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-nintendo-ds-nds-nus/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-nintendo-ds-nds-nus"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: Gameboy Advance NUS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: Gameboy Advance NUS</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-gameboy-advance-nus/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-gameboy-advance-nus"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Wii U: Retail Game Disc NUS</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Wii U: Retail Game Disc NUS</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Internet%20Archive/archiver_2020/wii-u-retail-game-disc-nus-usa/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://archive.org/download/wii-u-retail-game-disc-nus-usa"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                </tr>
-                <tr class="even:bg-muted m-0 border-t p-0">
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                        >Nintendo - Wii U - WUX</td
-                    >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                </TableRow>
+                <TableRow>
+                    <TableCell>Nintendo - Wii U - WUX</TableCell>
+                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             href="https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/"
                             >Download</a
-                        ></td
+                        ></TableCell
                     >
-                    <td
-                        class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
-                    ></td>
-                </tr>
-            </tbody>
-        </table>
+                    <TableCell></TableCell>
+                </TableRow>
+            </TableBody>
+        </Table>
     </div>
 </div>
