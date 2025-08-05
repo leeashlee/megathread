@@ -15,8 +15,8 @@
         Nintendo Games
     </h1>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        If you are looking for ReTableRowo ROMs, see the <a
-            href="#reTableRowo-games">ReTableRowo Games page</a
+        If you are looking for Retro ROMs, see the <a
+            href="/Retro & Arcade/retro-games">Retro Games page</a
         >.
     </p>
     <div class="my-6 w-full overflow-y-auto">

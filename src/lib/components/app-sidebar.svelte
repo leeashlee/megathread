@@ -134,11 +134,11 @@
     const retroArcade = [
         {
             title: "Retro Games",
-            url: base + "#retro-games",
+            url: base + "/Retro & Arcade/retro-games",
         },
         {
             title: "Arcade",
-            url: base + "#arcade-games",
+            url: base + "/Retro & Arcade/arcade",
         },
     ];
 
@@ -146,7 +146,7 @@
     const pc = [
         {
             title: "PC Games",
-            url: base + "#pc-games",
+            url: base + "/PC/pc-games",
         },
     ];
 
@@ -154,11 +154,11 @@
     const misc = [
         {
             title: "ROM Sets",
-            url: base + "#rom-sets",
+            url: base + "/Miscellaneous/rom-sets",
         },
         {
             title: "BIOS Files",
-            url: base + "#bios-files",
+            url: base + "/Miscellaneous/bios-files",
         },
     ];
 </script>

@@ -74,19 +74,19 @@
         of a group of links, it is a collection of the currently best-available
         ROMs for the system.
         <img
-            src={base + "/img/internetarchivelock.png"}
+            src={base + "/src/img/internetarchivelock.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
         When accessing the file directly, one of the following errors is shown.
         <img
-            src={base + "/img/internetarchivelockfile1.png"}
+            src={base + "/src/img/internetarchivelockfile1.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
         <br />
         <img
-            src={base + "/img/internetarchivelockfile2.png"}
+            src={base + "/src/img/internetarchivelockfile2.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
@@ -115,7 +115,7 @@
         </code>. These files are not important to download but are meant for the
         website to know what files to display and the reviews of the item.
         <img
-            src={base + "/img/internetarchivelock.png"}
+            src={base + "/src/img/internetarchivelock.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />

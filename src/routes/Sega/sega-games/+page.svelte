@@ -17,7 +17,7 @@
     <p class="leading-7 [&:not(:first-child)]:mt-6">
         Older systems can be found in the <a
             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-            href="#retro-games">Retro Games page</a
+            href="/Retro & Arcade/retro-games">Retro Games page</a
         >.
     </p>
     <Table>

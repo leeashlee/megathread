@@ -20,12 +20,12 @@
         >
         to convert the files to ISO<br />
         <img
-            src={base + "/img/9K4CIDd.png"}
+            src={base + "/src/img/9K4CIDd.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
         <img
-            src={base + "/img/75nhplt.png"}
+            src={base + "/src/img/75nhplt.png"}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
