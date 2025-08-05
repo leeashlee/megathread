@@ -7,11 +7,11 @@
         TableHeader,
         TableRow,
     } from "$lib/components/ui/table/index.js";
-    import { base } from '$app/paths'
-    import img1 from "$lib/img/internetarchivelock.png"
-    import img2 from "$lib/img/internetarchivelockfile1.png"
-    import img3 from "$lib/img/internetarchivelockfile2.png"
-    import img4 from "$lib/img/internetarchivemetadata.png"
+    import { base } from "$app/paths";
+    import img1 from "$lib/img/internetarchivelock.png";
+    import img2 from "$lib/img/internetarchivelockfile1.png";
+    import img3 from "$lib/img/internetarchivelockfile2.png";
+    import img4 from "$lib/img/internetarchivemetadata.png";
 </script>
 
 <!-- Home page for the ROMs megathread -->
@@ -64,36 +64,25 @@
         "No-Intro" and "Redump"
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        No-Intro and Redump are groups that catalog hashes of dumped games
-        for many systems. If "No-Intro" or "Redump" is present in the name
-        of a group of links, it is a collection of the currently best-available
-        ROMs for the system.
+        No-Intro and Redump are groups that catalog hashes of dumped games for
+        many systems. If "No-Intro" or "Redump" is present in the name of a
+        group of links, it is a collection of the currently best-available ROMs
+        for the system.
     </p>
     <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
         Locked Internet Archive Items
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        No-Intro and Redump are groups that catalog hashes of dumped games
-        for many systems. If "No-Intro" or "Redump" is present in the name
-        of a group of links, it is a collection of the currently best-available
-        ROMs for the system.
-        <img
-            src={img1}
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
+        Internet Archive restricts items that contain high-risk content or
+        generate a high amount of traffic from being able to be downloaded
+        without an account to decrease the likelihood of takedowns and to
+        prevent abuse. This is shown with a lock icon beside the file name in
+        the item's file listing.
+        <img src={img1} alt="" class="h-full w-full rounded-md object-cover" />
         When accessing the file directly, one of the following errors is shown.
-        <img
-            src={img2}
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
+        <img src={img2} alt="" class="h-full w-full rounded-md object-cover" />
         <br />
-        <img
-            src={img3}
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
+        <img src={img3} alt="" class="h-full w-full rounded-md object-cover" />
         To download locked items or files, register an
         <a
             href="https://archive.org/account/signup"
@@ -118,11 +107,7 @@
             .sqlite
         </code>. These files are not important to download but are meant for the
         website to know what files to display and the reviews of the item.
-        <img
-            src={img4}
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
+        <img src={img4} alt="" class="h-full w-full rounded-md object-cover" />
     </p>
     <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
         Internet Archive Torrents

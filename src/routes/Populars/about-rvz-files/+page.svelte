@@ -1,8 +1,7 @@
 <script lang="ts">
     import { base } from "$app/paths";
-    import img1 from "$lib/img/9K4CIDd.png"
-    import img2 from "$lib/img/75nhplt.png"
-
+    import img1 from "$lib/img/9K4CIDd.png";
+    import img2 from "$lib/img/75nhplt.png";
 </script>
 
 <!-- Home page for the ROMs megathread -->
@@ -21,19 +20,13 @@
             >Dolphin Emulator</a
         >
         to convert the files to ISO<br />
-        <img
-            src={img1}
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
-        <img
-            src={img2}
-            alt=""
-            class="h-full w-full rounded-md object-cover"
-        />
+        <img src={img1} alt="" class="h-full w-full rounded-md object-cover" />
+        <img src={img2} alt="" class="h-full w-full rounded-md object-cover" />
     </p>
     <!-- svelte-ignore a11y_media_has_caption -->
-    <video controls class="h-full w-full rounded-md object-cover"
+    <video
+        controls
+        class="h-full w-full rounded-md object-cover"
         autoplay
         muted
         playsinline
