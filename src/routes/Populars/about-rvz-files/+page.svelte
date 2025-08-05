@@ -1,5 +1,7 @@
 <script lang="ts">
     import { base } from "$app/paths";
+    import img1 from "$lib/img/9K4CIDd.png"
+    import img2 from "$lib/img/75nhplt.png"
 
 </script>
 
@@ -20,12 +22,12 @@
         >
         to convert the files to ISO<br />
         <img
-            src={base + "/src/img/9K4CIDd.png"}
+            src={img1}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
         <img
-            src={base + "/src/img/75nhplt.png"}
+            src={img2}
             alt=""
             class="h-full w-full rounded-md object-cover"
         />
