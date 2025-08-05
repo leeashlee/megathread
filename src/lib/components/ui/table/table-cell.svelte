@@ -14,7 +14,7 @@
 	bind:this={ref}
 	data-slot="table-cell"
 	class={cn(
-		"border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right",
+		"border px-4 py-2 text-primary font-light text-left [&[align=center]]:text-center [&[align=right]]:text-right",
 		className
 	)}
 	{...restProps}
