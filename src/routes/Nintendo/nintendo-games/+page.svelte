@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from "$app/paths";
     import {
         Table,
         TableBody,
@@ -15,8 +16,9 @@
         Nintendo Games
     </h1>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        If you are looking for Retro ROMs, see the <a
-            href="/Retro & Arcade/retro-games">Retro Games page</a
+        Older systems can be found in the <a
+            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+            href={base + "/Retro & Arcade/retro-games"}>Retro Games page</a
         >.
     </p>
     <div class="my-6 w-full overflow-y-auto">
