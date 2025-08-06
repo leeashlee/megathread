@@ -18,393 +18,113 @@
         <TableHeader>
             <TableRow>
                 <TableHead>Title</TableHead>
-                <TableHead>Myrient  (Fast &amp; Unrestricted)</TableHead
-                >
-                <TableHead>Internet Archive </TableHead>
+                <TableHead>Myrient (Fast &amp; Unrestricted)</TableHead>
+                <TableHead>Internet Archive</TableHead>
+                <TableHead>MEGA</TableHead>
             </TableRow>
         </TableHeader>
         <TableBody>
             <TableRow>
-                <TableCell>Microsoft - Xbox</TableCell>
+                <TableCell>Microsoft - Xbox - BIOS Images</TableCell>
                 <TableCell
                     ><a
                         class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://myrient.erista.me/files/Redump/Microsoft%20-%20Xbox/"
+                        href="https://myrient.erista.me/files/Redump/Microsoft%20-%20Xbox%20-%20BIOS%20Images/"
+                        >Download</a
+                    ></TableCell
+                >
+                <TableCell></TableCell>
+                <TableCell></TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>Nintendo - GameCube - BIOS Images</TableCell>
+                <TableCell
+                    ><a
+                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                        href="https://myrient.erista.me/files/Redump/Nintendo%20-%20GameCube%20-%20BIOS%20Images/"
+                        >Download</a
+                    ></TableCell
+                >
+                <TableCell></TableCell>
+                <TableCell></TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>Sony - PlayStation - BIOS Images</TableCell>
+                <TableCell
+                    ><a
+                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                        href="https://myrient.erista.me/files/Redump/Sony%20-%20PlayStation%20-%20BIOS%20Images/"
+                        >Download</a
+                    ></TableCell
+                >
+                <TableCell></TableCell>
+                <TableCell></TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>Sony - PlayStation 2 - BIOS Images</TableCell>
+                <TableCell
+                    ><a
+                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                        href="https://myrient.erista.me/files/Redump/Sony%20-%20PlayStation%202%20-%20BIOS%20Images/"
+                        >Download</a
+                    ></TableCell
+                >
+                <TableCell></TableCell>
+                <TableCell></TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>Redump BIOS sets</TableCell>
+                <TableCell></TableCell>
+                <TableCell
+                    ><a
+                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
+                        href="https://archive.org/download/2019_11_25_redump_bios"
                         >Download</a
                     ></TableCell
                 >
                 <TableCell></TableCell>
             </TableRow>
             <TableRow>
-                <TableCell>Microsoft Xbox - # - Redump.org</TableCell>
+                <TableCell
+                    >TOSEC Firmware and Operating Systems Collection</TableCell
+                >
                 <TableCell></TableCell>
                 <TableCell
                     ><a
                         class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_numberssymbols"
+                        href="https://archive.org/download/tosec_fw_os"
                         >Download</a
                     ></TableCell
                 >
+                <TableCell></TableCell>
             </TableRow>
             <TableRow>
-                <TableCell>Microsoft Xbox - A - Redump.org</TableCell>
-                <TableCell></TableCell>
+                <TableCell>Retroarch System Files (BIOS/Firmwares/OS)</TableCell
+                >
                 <TableCell
                     ><a
                         class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_a"
+                        href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/RetroarchSystemFiles/Retroarch-System/"
                         >Download</a
                     ></TableCell
                 >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - B - Redump.org</TableCell>
-                <TableCell></TableCell>
                 <TableCell
                     ><a
                         class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_b"
+                        href="https://archive.org/download/RetroarchSystemFiles/Retroarch-System/"
                         >Download</a
                     ></TableCell
                 >
+                <TableCell></TableCell>
             </TableRow>
             <TableRow>
-                <TableCell>Microsoft Xbox - C (Part 1) - Redump.org</TableCell>
+                <TableCell>Firmwares</TableCell>
+                <TableCell></TableCell>
                 <TableCell></TableCell>
                 <TableCell
                     ><a
                         class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_c_part1"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - C (Part 2) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_c_part2"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - D (Part 1) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_d_part1"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - D (Part 2) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_d_part2"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - E - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_e"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - F - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_f"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - G - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_g"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - H - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_h"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - I - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_i"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - J - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_j"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - K - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_k"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - L - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_l"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - M (Part 1) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_m_part1"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - M (Part 2) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_m_part2"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - N (Part 1) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_n_part1"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - N (Part 2) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_n_part2"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - O (Part 1) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_o_part1"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - O (Part 2) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_o_part2"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - P - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_p"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - Q - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_q"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - R - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_r"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - S (Part 1) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_s_part1"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - S (Part 2) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_s_part2"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - T (Part 1) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_t_part1"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - T (Part 2) - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_t_part2"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - U - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_u"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - V - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_v"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - W - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_w"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - X - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_x"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - Y - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_y"
-                        >Download</a
-                    ></TableCell
-                >
-            </TableRow>
-            <TableRow>
-                <TableCell>Microsoft Xbox - Z - Redump.org</TableCell>
-                <TableCell></TableCell>
-                <TableCell
-                    ><a
-                        class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                        href="https://archive.org/download/microsoft_xbox_z"
+                        href="https://mega.nz/folder/9ZdQwaaY#u63KaI0MsKcIqWE2GQmUuA"
                         >Download</a
                     ></TableCell
                 >
