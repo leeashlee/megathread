@@ -12,7 +12,7 @@
 <!-- Home page for the ROMs megathread -->
 <div class="mx-8 mb-8 mt-8 space-y-4 bg-background">
     <h1 class="scroll-m-20 text-balance text-4xl font-extrabold tracking-tight">
-        Microsoft Xbox 360
+        ROM Sets
     </h1>
     <div class="my-6 w-full overflow-y-auto">
         <Table>
@@ -25,819 +25,609 @@
             </TableHeader>
             <TableBody>
                 <TableRow>
-                    <TableCell>Microsoft - Xbox 360</TableCell>
+                    <TableCell>No-Intro</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/Redump/Microsoft%20-%20Xbox%20360/"
+                            href="https://myrient.erista.me/files/No-Intro/"
                             >Download</a
                         ></TableCell
                     >
                     <TableCell></TableCell>
                 </TableRow>
-
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - # - Redump.org</TableCell>
-                    <TableCell></TableCell>
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_numberssymbols"
-                            >Download</a
-                        ></TableCell
-                    >
-                </TableRow>
-                <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - A (Part 1) - Redump.org</TableCell
-                    >
-                    <TableCell></TableCell>
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_a_part1"
-                            >Download</a
-                        ></TableCell
-                    >
-                </TableRow>
-                <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - A (Part 2) - Redump.org</TableCell
-                    >
-                    <TableCell></TableCell>
+                    <TableCell>Redump</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_a_part2"
+                            href="https://myrient.erista.me/files/Redump/"
                             >Download</a
                         ></TableCell
-                    >
-                </TableRow>
-                <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - B (Part 1) - Redump.org</TableCell
                     >
                     <TableCell></TableCell>
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_b_part1"
-                            >Download</a
-                        ></TableCell
-                    >
                 </TableRow>
                 <TableRow>
+                    <TableCell>TOSEC</TableCell>
                     <TableCell
-                        >Microsoft Xbox 360 - B (Part 2) - Redump.org</TableCell
-                    >
-                    <TableCell></TableCell>
-                    <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_b_part2"
+                            href="https://myrient.erista.me/files/TOSEC/"
                             >Download</a
                         ></TableCell
-                    >
-                </TableRow>
-                <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - C (Part 1) - Redump.org</TableCell
                     >
                     <TableCell></TableCell>
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_c_part1"
-                            >Download</a
-                        ></TableCell
-                    >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - C (Part 2) - Redump.org</TableCell
-                    >
-                    <TableCell></TableCell>
+                    <TableCell>TOSEC-ISO</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_c_part2"
+                            href="https://myrient.erista.me/files/TOSEC-ISO/"
                             >Download</a
                         ></TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - D (Part 1) - Redump.org</TableCell
-                    >
                     <TableCell></TableCell>
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_d_part1"
-                            >Download</a
-                        ></TableCell
-                    >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - D (Part 2) - Redump.org</TableCell
-                    >
-                    <TableCell></TableCell>
+                    <TableCell>TOSEC-PIX</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_d_part2"
+                            href="https://myrient.erista.me/files/TOSEC-PIX/"
                             >Download</a
                         ></TableCell
-                    >
-                </TableRow>
-                <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - D (Part 3) - Redump.org</TableCell
                     >
                     <TableCell></TableCell>
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_d_part3"
-                            >Download</a
-                        ></TableCell
-                    >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - E - Redump.org</TableCell>
-                    <TableCell></TableCell>
+                    <TableCell>Miscellaneous</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_e"
+                            href="https://myrient.erista.me/files/Miscellaneous/"
                             >Download</a
                         ></TableCell
-                    >
-                </TableRow>
-                <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - F (Part 1) - Redump.org</TableCell
                     >
                     <TableCell></TableCell>
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_f_part1"
-                            >Download</a
-                        ></TableCell
-                    >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - F (Part 2) - Redump.org</TableCell
-                    >
+                    <TableCell>No-Intro ROM Sets</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_f_part2"
+                            href="https://archive.org/download/ni-roms/roms/"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - G - Redump.org</TableCell>
+                    <TableCell>No-Intro - Source Code Sets</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_g"
+                            href="https://archive.org/download/ni-sc/ni-sc/"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - H - Redump.org</TableCell>
+                    <TableCell>The Unofficial Redump Hoard</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_h"
+                            href="https://archive.org/details/redump"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - I - Redump.org</TableCell>
+                    <TableCell>CVLT OF MIRRORS</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_i"
+                            href="https://archive.org/details/@cvlt_of_mirrors?query=Redump.org&amp;sort=title"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - J - Redump.org</TableCell>
+                    <TableCell>TOSEC (2024-05-17)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_j"
+                            href="https://archive.org/download/tosec-main"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - K - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] 3DO (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_k"
+                            href="https://archive.org/download/tosec-iso-3do"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - L - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] Acorn (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_l"
+                            href="https://archive.org/download/tosec-iso-acorn"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
                     <TableCell
-                        >Microsoft Xbox 360 - M (Part 1) - Redump.org</TableCell
+                        >[TOSEC-ISO] American Laser Games (2023-07-10)</TableCell
                     >
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_m_part1"
+                            href="https://archive.org/download/tosec-iso-american-laser-games"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - M (Part 2) - Redump.org</TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] Apple (2023-01-23) (-2)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_m_part2"
+                            href="https://archive.org/download/tosec-iso-apple"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - N (Part 1) - Redump.org</TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] Atari (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_n_part1"
+                            href="https://archive.org/download/tosec-iso-atari"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - N (Part 2) - Redump.org</TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] Bandai (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_n_part2"
+                            href="https://archive.org/download/tosec-iso-bandai"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - O - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] Capcom (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_o"
+                            href="https://archive.org/download/tosec-iso-capcom"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - P - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] Commodore (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_p"
+                            href="https://archive.org/download/tosec-iso-commodore"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Q - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] Fujitsu (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_q"
+                            href="https://archive.org/download/tosec-iso-fujitsu"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - R - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] IBM (2023-01-23) (-1078)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_r"
+                            href="https://archive.org/download/tosec-iso-ibm"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
                     <TableCell
-                        >Microsoft Xbox 360 - S (Part 1) - Redump.org</TableCell
+                        >[TOSEC-ISO] Incredible Technologies (2023-07-10)</TableCell
                     >
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_s_part1"
+                            href="https://archive.org/download/tosec-iso-incredible-technologies"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - S (Part 2) - Redump.org</TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] Konami (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_s_part2"
+                            href="https://archive.org/download/tosec-iso-konami"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - T (Part 1) - Redump.org</TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] Mattel (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_t_part1"
+                            href="https://archive.org/download/tosec-iso-mattel"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - T (Part 2) - Redump.org</TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] Memorex (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_t_part2"
+                            href="https://archive.org/download/tosec-iso-memorex"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - U - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] Microsoft (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_u"
+                            href="https://archive.org/download/tosec-iso-microsoft"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - V - Redump.org</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_v"
-                            >Download</a
-                        ></TableCell
+                        >[TOSEC-ISO] Multi-format (2023-07-10) (-29)</TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Microsoft Xbox 360 - W - Redump.org</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_w"
+                            href="https://archive.org/download/tosec-iso-multi-format"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
                     <TableCell
-                        >Microsoft Xbox 360 - X (Part 1) - Redump.org</TableCell
+                        >[TOSEC-ISO] Namco-Sega-Nintendo (2023-07-10)</TableCell
                     >
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_x_part1"
+                            href="https://archive.org/download/tosec-iso-namco-sega-nintendo"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - X (Part 2) - Redump.org</TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] NEC (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_x_part2"
+                            href="https://archive.org/download/tosec-iso-nec"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Y - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] Nintendo (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_y"
+                            href="https://archive.org/download/tosec-iso-nintendo_"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Z - Redump.org</TableCell>
+                    <TableCell>[TOSEC-ISO] Philips (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_z"
+                            href="https://archive.org/download/tosec-iso-philips"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
-
                 <TableRow>
-                    <TableCell
-                        >Unofficial - Microsoft - Xbox 360 (Title Updates)</TableCell
-                    >
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Unofficial%20-%20Microsoft%20-%20Xbox%20360%20(Title%20Updates)/"
-                            >Download</a
-                        ></TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] Sega Part 1 (2023-07-10)</TableCell>
                     <TableCell></TableCell>
-                </TableRow>
-                <TableRow>
-                    <TableCell>Microsoft - Xbox 360 (Digital)</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-Intro/Microsoft%20-%20Xbox%20360%20(Digital)/"
+                            href="https://archive.org/download/tosec-iso-sega"
                             >Download</a
                         ></TableCell
                     >
-                    <TableCell></TableCell>
                 </TableRow>
-
                 <TableRow>
-                    <TableCell
-                        >Microsoft Xbox 360 - Title Updates - No-Intro</TableCell
-                    >
+                    <TableCell>[TOSEC-ISO] Sega Part 2 (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_title-updates"
+                            href="https://archive.org/download/tosec-iso-sega-part2"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Digital (Part 1)</TableCell>
+                    <TableCell>[TOSEC-ISO] Sinclair (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_digital_part1"
+                            href="https://archive.org/download/tosec-iso-sinclair"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Digital (Part 2)</TableCell>
+                    <TableCell>[TOSEC-ISO] SNK (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_digital_part2"
+                            href="https://archive.org/download/tosec-iso-snk"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Digital (Part 3)</TableCell>
+                    <TableCell>[TOSEC-ISO] Sony (2023-01-23) (-5)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_digital_part3"
+                            href="https://archive.org/download/tosec-iso-sony"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Digital (Part 4)</TableCell>
+                    <TableCell>[TOSEC-ISO] Tomy (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_digital_part4"
+                            href="https://archive.org/download/tosec-iso-tomy"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Digital (Part 5)</TableCell>
+                    <TableCell>[TOSEC-ISO] VM Labs (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_digital_part5"
+                            href="https://archive.org/download/tosec-iso-vm-labs"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Digital (Part 6)</TableCell>
+                    <TableCell>[TOSEC-ISO] VTech (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_digital_part6"
+                            href="https://archive.org/download/tosec-iso-vtech"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Microsoft Xbox 360 - Digital (Part 7)</TableCell>
+                    <TableCell>[TOSEC-ISO] ZAPiT Games (2023-07-10)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/microsoft_xbox360_digital_part7"
+                            href="https://archive.org/download/tosec-iso-zapit-games"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
-
                 <TableRow>
-                    <TableCell>Xbox 360 Games (# - D) (Other)</TableCell>
+                    <TableCell>[TOSEC-PIX] Part 1 (2023-01-23)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_1_OTHER"
+                            href="https://archive.org/download/tosec-pix"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Xbox 360 Games (# - D)</TableCell>
+                    <TableCell>[TOSEC-PIX] Part 2 (2023-01-23)</TableCell>
                     <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_1"
+                            href="https://archive.org/download/tosec-pix-part2"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Xbox 360 Games (D - H)</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_2"
-                            >Download</a
-                        ></TableCell
+                        >Hardware Target Game Database (HTGDB) Gamepacks</TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 Games (H - M)</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_3"
+                            href="https://myrient.erista.me/files/Internet%20Archive/the_last_collector/htgdb-gamepacks/"
                             >Download</a
                         ></TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 Games (M - P)</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_4"
+                            href="https://archive.org/download/htgdb-gamepacks"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Xbox 360 Games (P - T)</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_5"
-                            >Download</a
-                        ></TableCell
+                        >English Translation ROMs Collection (2024)</TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 Games (T - Z)</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_6"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/En-ROMs/En-ROMs/"
                             >Download</a
                         ></TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 DLC Part 1</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_DLC_1"
+                            href="https://archive.org/download/En-ROMs/En-ROMs/"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Xbox 360 DLC Part 2</TableCell>
-                    <TableCell></TableCell>
+                    <TableCell>Super Mario World Hacks</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_DLC_2"
+                            href="https://myrient.erista.me/files/Internet%20Archive/storage_manager/super-mario-world-hacks/"
                             >Download</a
                         ></TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 DLC Part 3</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_DLC_3"
+                            href="https://archive.org/download/super-mario-world-hacks"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Xbox 360 DLC Part 4</TableCell>
-                    <TableCell></TableCell>
+                    <TableCell>Nintendo - Super Famicom - MSU1</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_DLC_4"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/nintendo-super-famicom-msu1/ROMs/"
                             >Download</a
                         ></TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 DLC Part 5</TableCell>
                     <TableCell></TableCell>
-                    <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_DLC_5"
-                            >Download</a
-                        ></TableCell
-                    >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Xbox 360 DLC Part 6</TableCell>
-                    <TableCell></TableCell>
+                    <TableCell>Super Famicom - Enhanced Colors</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_DLC_6"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/super-famicom-enhanced-colors/ROMs/"
                             >Download</a
                         ></TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 XBLIG Part 1</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_XBLIG_1"
+                            href="https://archive.org/download/super-famicom-enhanced-colors/ROMs/"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Xbox 360 XBLIG Part 2</TableCell>
-                    <TableCell></TableCell>
+                    <TableCell>Nintendo - Super Famicom - Speed Hacks</TableCell
+                    >
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_XBLIG_2"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/sfc-speedhacks/ROMs/"
                             >Download</a
                         ></TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 XBLIG Part 3</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_XBLIG_3"
+                            href="https://archive.org/download/sfc-speedhacks/ROMs/"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>Xbox 360 XBLIG Part 4</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
-                        ><a
-                            class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_XBLIG_4"
-                            >Download</a
-                        ></TableCell
+                        >Complete Sega MD+ Collection (MegaSD, Mega Everdrive
+                        Pro &amp; Genesis Plus GX Compatible)</TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 XBLA</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_XBLA"
+                            href="https://myrient.erista.me/files/Internet%20Archive/md_/mdplus_collection_22_04_16/"
                             >Download</a
                         ></TableCell
                     >
-                </TableRow>
-                <TableRow>
-                    <TableCell>Xbox 360 XBLA DLC</TableCell>
-                    <TableCell></TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/XBOX_360_XBLA_DLC"
+                            href="https://archive.org/download/mdplus_collection_22_04_16"
                             >Download</a
                         ></TableCell
                     >
                 </TableRow>
-
                 <TableRow>
-                    <TableCell
-                        >Rock Band DLC Complete Collection Xbox 360 by Americo</TableCell
-                    >
+                    <TableCell>Sega Model 3 ROMs</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/Internet%20Archive/mdashk/rock-band-dlc-complete-collection-xbox-360-by-americo/"
+                            href="https://myrient.erista.me/files/Internet%20Archive/chadmaster/segamodel3/ROMs/"
                             >Download</a
                         ></TableCell
                     >
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/rock-band-dlc-complete-collection-xbox-360-by-americo"
+                            href="https://archive.org/download/segamodel3/ROMs/"
                             >Download</a
                         ></TableCell
                     >
