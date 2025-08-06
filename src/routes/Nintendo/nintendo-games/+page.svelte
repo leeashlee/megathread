@@ -26,7 +26,7 @@
             <TableHeader>
                 <TableRow>
                     <TableHead>Title</TableHead>
-                    <TableHead>Myrient (Fast & UnresTableRowicted)</TableHead>
+                    <TableHead>Myrient (Fast & Unrestricted)</TableHead>
                 </TableRow>
             </TableHeader>
             <TableBody>

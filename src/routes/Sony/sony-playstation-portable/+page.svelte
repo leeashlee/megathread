@@ -20,7 +20,7 @@
                 <TableRow>
                     <TableHead>Title</TableHead>
                     <TableHead>
-                        Myrient(Fast &amp; UnresTableRowicted)</TableHead
+                        Myrient(Fast &amp; Unrestricted)</TableHead
                     >
                     <TableHead>Internet Archive</TableHead>
                 </TableRow>
