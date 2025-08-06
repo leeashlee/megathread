@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from "$app/paths";
     import {
         Table,
         TableBody,
@@ -18,7 +19,7 @@
         RVZ format is recommended for its size and convenience. For more
         information, please refer to the
         <a
-            href="/Populars/about-rvz-files"
+            href={base + "/Populars/about-rvz-files"}
             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
             >RVZ format page</a
         >.

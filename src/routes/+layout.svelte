@@ -55,6 +55,7 @@
     import { toggleMode } from "mode-watcher";
     import * as Sidebar from "$lib/components/ui/sidebar/index.js";
     import AppSidebar from "$lib/components/app-sidebar.svelte";
+    import { base } from "$app/paths";
 
     let { children } = $props();
 </script>
@@ -70,7 +71,7 @@
                     <NavigationMenu.List>
                         <NavigationMenuItem></NavigationMenuItem>
                         <NavigationMenuItem>
-                            <Button variant="ghost" href="/"
+                            <Button variant="ghost" href={base}
                                 >/r/Roms Megathread</Button
                             >
                         </NavigationMenuItem>
