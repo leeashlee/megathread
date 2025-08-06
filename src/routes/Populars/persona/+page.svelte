@@ -30,7 +30,7 @@
                     <TableCell>Persona 5 (PS3) (USA)</TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Sony%20-%20PlayStation%203%20(PSN)%20(Content)/Persona%205%20(USA).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Sony%20-%20PlayStation%203%20(PSN)%20(Content)/Persona%205%20(USA).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >PS3 PKG</a
                         >
@@ -86,7 +86,7 @@
                     <TableCell>Persona 4 Golden (PSV) (USA)</TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Sony%20-%20PlayStation%20Vita%20(PSN)%20(Content)/Persona%204%20Golden%20(USA).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Sony%20-%20PlayStation%20Vita%20(PSN)%20(Content)/Persona%204%20Golden%20(USA).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >PSV PKG</a
                         >

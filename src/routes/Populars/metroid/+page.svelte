@@ -27,7 +27,7 @@
                     <TableCell>Metroid Fusion (GBA) (USA)</TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Game%20Boy%20Advance/Metroid%20Fusion%20(USA).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Metroid%20Fusion%20(USA).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >
@@ -37,7 +37,7 @@
                     <TableCell>Metroid Zero Mission (GBA) (USA)</TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Game%20Boy%20Advance/Metroid%20-%20Zero%20Mission%20(USA).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Metroid%20-%20Zero%20Mission%20(USA).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >

@@ -80,7 +80,7 @@
                     </TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Legend%20of%20Zelda,%20The%20-%20Ocarina%20of%20Time%203D%20(USA)%20(En,Fr,Es).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Legend%20of%20Zelda,%20The%20-%20Ocarina%20of%20Time%203D%20(USA)%20(En,Fr,Es).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >
@@ -93,7 +93,7 @@
                     </TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Nintendo%2064%20(BigEndian)/Legend%20of%20Zelda,%20The%20-%20Ocarina%20of%20Time%20(USA).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%2064%20(BigEndian)/Legend%20of%20Zelda,%20The%20-%20Ocarina%20of%20Time%20(USA).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >
@@ -112,19 +112,19 @@
                     </TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Legend%20of%20Zelda,%20The%20-%20Breath%20of%20the%20Wild%20(USA).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Legend%20of%20Zelda,%20The%20-%20Breath%20of%20the%20Wild%20(USA).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Game</a
                         >
                         /
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Legend%20of%20Zelda,%20The%20-%20Breath%20of%20the%20Wild%20(USA)%20(Update).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Legend%20of%20Zelda,%20The%20-%20Breath%20of%20the%20Wild%20(USA)%20(Update).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Update</a
                         >
                         /
                         <a
-                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Legend%20of%20Zelda,%20The%20-%20Breath%20of%20the%20Wild%20(USA)%20(DLC).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/Legend%20of%20Zelda,%20The%20-%20Breath%20of%20the%20Wild%20(USA)%20(DLC).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >DLC</a
                         >

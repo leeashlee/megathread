@@ -133,18 +133,18 @@
                     >
                 </TableRow>
                 <TableRow>
-                    <TableCell>PSP No-InTableRowo DLC</TableCell>
+                    <TableCell>PSP No-Intro DLC</TableCell>
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/Internet%20Archive/storage_manager/PSP-DLC/%5BNo-InTableRowo%5D%20PSP%20DLC/"
+                            href="https://myrient.erista.me/files/Internet%20Archive/storage_manager/PSP-DLC/%5BNo-Intro%5D%20PSP%20DLC/"
                             >Download</a
                         ></TableCell
                     >
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://archive.org/download/PSP-DLC/%5BNo-InTableRowo%5D%20PSP%20DLC/"
+                            href="https://archive.org/download/PSP-DLC/%5BNo-Intro%5D%20PSP%20DLC/"
                             >Download</a
                         ></TableCell
                     >

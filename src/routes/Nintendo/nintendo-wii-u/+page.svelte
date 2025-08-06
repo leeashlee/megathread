@@ -92,7 +92,7 @@
                     <TableCell
                         ><a
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
-                            href="https://myrient.erista.me/files/No-InTableRowo/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Wii%20U%20(Digital)%20(CDN)/"
                             >Download</a
                         ></TableCell
                     >
