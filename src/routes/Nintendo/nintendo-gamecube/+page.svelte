@@ -141,11 +141,11 @@
                 </TableRow>
                 <TableRow>
                     <TableCell>
-                        Redump - Nintendo - GameCube (AusTableRowalia)
+                        Redump - Nintendo - GameCube (Australia)
                     </TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/Internet%20Archive/kodi_amp_spmc_canada/AusTableRowaliaGamecubeCollectionByGhostware/"
+                            href="https://myrient.erista.me/files/Internet%20Archive/kodi_amp_spmc_canada/AustraliaGamecubeCollectionByGhostware/"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >

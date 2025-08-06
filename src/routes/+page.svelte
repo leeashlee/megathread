@@ -24,7 +24,7 @@
         Use the menu bar on the side to navigate this megathread.
     </p>
     <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
     >
         Donate to Myrient and/or the Internet Archive
     </h2>
@@ -55,11 +55,11 @@
         >.
     </p>
     <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
     >
         Additional Information
     </h2>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
         "No-Intro" and "Redump"
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
@@ -68,7 +68,7 @@
         group of links, it is a collection of the currently best-available ROMs
         for the system.
     </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
         Locked Internet Archive Items
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
@@ -89,7 +89,7 @@
             >Internet Archive account</a
         > or download it from Myrient instead.
     </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
         Internet Archive Metadata
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
@@ -108,7 +108,7 @@
         website to know what files to display and the reviews of the item.
         <img src={img4} alt="" class="h-full w-full rounded-md object-cover" />
     </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
         Internet Archive Torrents
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
@@ -118,12 +118,12 @@
         recommended to use direct downloads with a download manager instead of
         torrents.
     </p>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
         Archive File Types (ZIP, 7z, RAR)
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
         ZIP, 7z, and RAR are archive file types which means they must be
-        exTableRowacted. 7-Zip is recommended for exTableRowacting these files.
+        extracted. 7-Zip is recommended for extracting these files.
         Download and install it <a
             href="https://www.7-zip.org/"
             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
@@ -134,18 +134,18 @@
         <code
             class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
         >
-            7-Zip -> ExTableRowact Files
+            7-Zip -> Extract Files
         </code>.
     </p>
     <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
     >
         Blocking Ads with uBlock Origin
     </h2>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
         uBlock Origin is recommended when accessing certain links on this
         megathread and the Internet in general. It blocks ads,
-        TableRowackers,and much more. <br /> Below are links to download and install
+        trackers,and much more. <br /> Below are links to download and install
         it for certain web browsers.
     </p>
     <div class="my-6 w-full overflow-y-auto">
@@ -196,15 +196,15 @@
         use Firefox to download ROMs.
     </p>
     <h2
-        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
+        class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
     >
         Bypassing Download Limits
     </h2>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
         Google Drive
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">
-        From time to time when TableRowying to download a file, you may see an
+        From time to time when trying to download a file, you may see an
         error message saying “Download quota exceeded, so you can’t download
         this file at this time”. The steps to bypass the download quota limit
         are as follows:
@@ -231,7 +231,7 @@
         </li>
         <li>A .zip file with the file(s) you selected starts downloading.</li>
     </ol>
-    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight">
+    <h3 class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
         MEGA
     </h3>
     <p class="leading-7 [&:not(:first-child)]:mt-6">

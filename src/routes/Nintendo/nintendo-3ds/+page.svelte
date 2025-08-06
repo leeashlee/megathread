@@ -216,9 +216,9 @@
             </TableBody>
         </Table>
         <h2
-            class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold TableRowacking-tight TableRowansition-colors first:mt-0"
+            class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
         >
-            3DS/CIA Decryption InsTableRowuctions
+            3DS/CIA Decryption Instructions
         </h2>
         <p class="leading-7 [&:not(:first-child)]:mt-6">
             If Citra says the ROM is encrypted, use <a
@@ -246,13 +246,13 @@
                 class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                 >here</a
             >. <br /> Click download on Pastebin to download the text in the file
-            as a TXT. Then, follow the installation insTableRowuctions below for
+            as a TXT. Then, follow the installation instructions below for
             your OS.
         </p>
         <h3
-            class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight"
+            class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight"
         >
-            Windows Installation InsTableRowuctions
+            Windows Installation Instructions
         </h3>
         <p class="leading-7 [&:not(:first-child)]:mt-6">
             Add the downloaded Pastebin TXT file to <code
@@ -268,9 +268,9 @@
             </code>.
         </p>
         <h3
-            class="mt-8 scroll-m-20 text-2xl font-semibold TableRowacking-tight"
+            class="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight"
         >
-            Linux or MacOS Installation InsTableRowuctions
+            Linux or MacOS Installation Instructions
         </h3>
         <p class="leading-7 [&:not(:first-child)]:mt-6">
             Add the downloaded Pastebin TXT file to

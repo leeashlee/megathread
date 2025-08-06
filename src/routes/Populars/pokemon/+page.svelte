@@ -300,7 +300,7 @@
                     <TableCell>Pokemon SoulSilver (NDS) (USA)</TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20SoulSilver%20Version%20(USA,%20AusTableRowalia).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20DS%20(Encrypted)/Pokemon%20-%20SoulSilver%20Version%20(USA,%20Australia).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >Download</a
                         >
@@ -556,58 +556,58 @@
                     </TableCell>
                 </TableRow>
                 <TableRow>
-                    <TableCell>Pokemon UlTableRowa Sun (3DS) (USA)</TableCell>
+                    <TableCell>Pokemon Ultra Sun (3DS) (USA)</TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20UlTableRowa%20Sun%20(USA)%20(En,Ja,Fr,De,Es,It,Zh,Ko).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Ultra%20Sun%20(USA)%20(En,Ja,Fr,De,Es,It,Zh,Ko).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >3DS</a
                         >
                         /
                         <a
-                            href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/pkmn_collection/3DS/Pokemon%20UlTableRowa%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
+                            href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/pkmn_collection/3DS/Pokemon%20Ultra%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >CIA</a
                         >
                     </TableCell>
                     <TableCell>
                         <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20UlTableRowa%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%283DS%29.7z"
+                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Ultra%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%283DS%29.7z"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >3DS</a
                         >
                         /
                         <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20UlTableRowa%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
+                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Ultra%20Sun%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >CIA</a
                         >
                     </TableCell>
                 </TableRow>
                 <TableRow>
-                    <TableCell>Pokemon UlTableRowa Moon (3DS) (USA)</TableCell>
+                    <TableCell>Pokemon Ultra Moon (3DS) (USA)</TableCell>
                     <TableCell>
                         <a
-                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20UlTableRowa%20Moon%20(USA)%20(En,Ja,Fr,De,Es,It,Zh,Ko).zip"
+                            href="https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%203DS%20(Encrypted)/Pokemon%20Ultra%20Moon%20(USA)%20(En,Ja,Fr,De,Es,It,Zh,Ko).zip"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >3DS</a
                         >
                         /
                         <a
-                            href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/pkmn_collection/3DS/Pokemon%20UlTableRowa%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
+                            href="https://myrient.erista.me/files/Internet%20Archive/bingbong294/pkmn_collection/3DS/Pokemon%20Ultra%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >CIA</a
                         >
                     </TableCell>
                     <TableCell>
                         <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20UlTableRowa%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%283DS%29.7z"
+                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Ultraa%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%283DS%29.7z"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >3DS</a
                         >
                         /
                         <a
-                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20UlTableRowa%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
+                            href="https://archive.org/download/pkmn_collection/3DS/Pokemon%20Ultraa%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29%20%28CIA%29.7z"
                             class="text-primary font-medium underline underline-offset-4 md:text-base hover:bg-primary hover:text-primary-foreground"
                             >CIA</a
                         >
