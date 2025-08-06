@@ -7,7 +7,6 @@
         TableHeader,
         TableRow,
     } from "$lib/components/ui/table/index.js";
-    import { base } from "$app/paths";
     import img1 from "$lib/img/internetarchivelock.png";
     import img2 from "$lib/img/internetarchivelockfile1.png";
     import img3 from "$lib/img/internetarchivelockfile2.png";
