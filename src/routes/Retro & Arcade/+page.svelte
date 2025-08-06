@@ -9,6 +9,6 @@
     <p
         class="text-muted-foreground text-l leading-7 [&:not(:first-child)]:mt-6"
     >
-        A list of Xbox games.
+        A list of Retro games and arcade games.
     </p>
 </div>
